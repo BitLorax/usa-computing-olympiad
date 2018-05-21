@@ -1,0 +1,27 @@
+
+Created 4/26/2018 by Jiahua "Will" Liang
+!: had help
+
+==========[USACO completed questions report]==========
+
+[Progress]
+* Bronze 2016 [===|===|   ]
+** Silver 2016 [===|== |   ] ! 1[1,2,3], 2[2]
+
+[Dates]
+* Bronze 2016 P1SquarePasture - 4/27/2018
+* Bronze 2016 P2BlockGame - 4/27/2018
+* Bronze 2016 P3CowSignal - 4/27/2018
+
+** Silver 2016 P1CountingHaybales - 4/28/2018
+
+** Silver 2016 P2CitiesAndStates - 4/29/2018
+** Silver 2016 P3Moocast - 4/29/2018
+
+* Bronze 2016 P1DontBeLast - 4/30/2018
+* Bronze 2016 P2HoofPaperScissors - 4/30/2018
+* Bronze 2016 P3CowTipping -4/30/2018
+
+** Silver 2016 P1CowDanceShow - 5/1/2018
+
+** Silver 2016 P2HoofPaperScissors - 5/2/2018
