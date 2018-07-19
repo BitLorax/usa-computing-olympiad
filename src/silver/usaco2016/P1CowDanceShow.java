@@ -1,28 +1,21 @@
 package silver.usaco2016;
 
-/*
-
-[Explanation]
-Check if the cow times can be added up to be less than the time requirement, and replace the times in the list with -1 so it can't be used anymore.
-
- */
-
 import java.util.*;
 import java.io.*;
 
 public class P1CowDanceShow {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("src/silver/resources/cowdance.in"));
-        PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("src/silver/resources/cowdance.out")));
+        BufferedReader in = new BufferedReader(new FileReader("src/silver/resources2016/cowdance.in"));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src/silver/resources2016/cowdance.out")));
 
-        StringTokenizer st = new StringTokenizer(br.readLine());
+        StringTokenizer st = new StringTokenizer(in.readLine());
 
         int cowCount = Integer.parseInt(st.nextToken());
         int time = Integer.parseInt(st.nextToken());
 
         int[] times = new int[cowCount];
         for (int cow = 0; cow < cowCount; cow++) {
-            times[cow] = Integer.parseInt(br.readLine());
+            times[cow] = Integer.parseInt(in.readLine());
         }
 
         int replaceInTime = 0;
@@ -36,8 +29,8 @@ public class P1CowDanceShow {
             currIndex++;
         }
 
-        pw.println(replaceInTime);
-        pw.close();
+        out.println(replaceInTime);
+        out.close();
     }
 
     private static int calcReplace(int[] times, int timeLeft) {

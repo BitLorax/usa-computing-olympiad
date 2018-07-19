@@ -5,17 +5,17 @@ import java.io.*;
 
 public class P2CitiesAndStates {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("src/silver/resources/citystate.in"));
-        PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("src/silver/resources/citystate.out")));
+        BufferedReader in = new BufferedReader(new FileReader("src/silver/resources2016/citystate.in"));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src/silver/resources2016/citystate.out")));
 
-        StringTokenizer st = new StringTokenizer(br.readLine());
+        StringTokenizer st = new StringTokenizer(in.readLine());
 
         int cityCount = Integer.parseInt(st.nextToken());
 
         Map<String, Integer> pairs = new HashMap<>();
 
         for (int pair = 0; pair < cityCount; pair++) {
-            st = new StringTokenizer(br.readLine());
+            st = new StringTokenizer(in.readLine());
 
             String pairKey = st.nextToken().substring(0, 2) + st.nextToken();
 
@@ -35,7 +35,7 @@ public class P2CitiesAndStates {
             }
         }
 
-        pw.println(pairCount / 2); // Double counted
-        pw.close();
+        out.println(pairCount / 2); // Double counted
+        out.close();
     }
 }

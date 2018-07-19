@@ -1,27 +1,20 @@
 package bronze.usaco2016;
 
-/*
-
-[Explanation]
-Find the letters of each side and then compare the two lists and add the greatest to the final list.
-
- */
-
 import java.util.*;
 import java.io.*;
 
 public class P2BlockGame {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("src/bronze/resources/blocks.in"));
-        PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("src/bronze/resources/blocks.out")));
+        BufferedReader in = new BufferedReader(new FileReader("src/bronze/resources2016/blocks.in"));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src/bronze/resources2016/blocks.out")));
 
-        StringTokenizer st = new StringTokenizer(br.readLine());
+        StringTokenizer st = new StringTokenizer(in.readLine());
         int boards = Integer.parseInt(st.nextToken());
         int[] allLetters = new int[26];
 
         for (int board = 0; board < boards; board++) {
 
-            st = new StringTokenizer(br.readLine());
+            st = new StringTokenizer(in.readLine());
             String side1 = st.nextToken();
             int[] letters1 = blocksRequired(side1);
             String side2 = st.nextToken();
@@ -33,9 +26,9 @@ public class P2BlockGame {
         }
 
         for (int letter = 0; letter < 26; letter++) {
-            pw.println(allLetters[letter]);
+            out.println(allLetters[letter]);
         }
-        pw.close();
+        out.close();
 
     }
 

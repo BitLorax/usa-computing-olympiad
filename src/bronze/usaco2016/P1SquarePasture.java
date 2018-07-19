@@ -1,20 +1,12 @@
 package bronze.usaco2016;
 
-/*
-
-[Explanation]
-Find the smallest integers for both x and y, then subtract them to get the greatest length.
-Compare the two lengths and square the biggest one.
-
- */
-
 import java.util.*;
 import java.io.*;
 
 public class P1SquarePasture {
     public static void main(String[] args) throws IOException{
-        BufferedReader br = new BufferedReader(new FileReader("src/bronze/resources/square.in"));
-        PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("src/bronze/resources/square.out")));
+        BufferedReader in = new BufferedReader(new FileReader("src/bronze/resources2016/square.in"));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src/bronze/resources2016/square.out")));
 
         int smallestX = 11;
         int smallestY = 11;
@@ -23,7 +15,7 @@ public class P1SquarePasture {
         int largestLength = 0;
 
         for (int fileRow = 0; fileRow < 2; fileRow++) {
-            StringTokenizer st = new StringTokenizer(br.readLine());
+            StringTokenizer st = new StringTokenizer(in.readLine());
             for (int coords = 0; coords < 2; coords++) {
                 int x = Integer.parseInt(st.nextToken());
                 int y = Integer.parseInt(st.nextToken());
@@ -52,8 +44,8 @@ public class P1SquarePasture {
             largestLength = largestY - smallestY;
         }
 
-        pw.println(largestLength * largestLength);
-        pw.close();
+        out.println(largestLength * largestLength);
+        out.close();
     }
 
 }

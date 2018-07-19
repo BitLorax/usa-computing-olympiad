@@ -1,35 +1,17 @@
 package silver.usaco2016;
 
-/*
-
-[Explanation]
-First, create two arrays for the first choice and second choice with 3 slots each for each choice.
-Calculate the maximum amount of wins with the certain switchPoint by taking the sum of the biggest values of the arrays.
-Compare them to the maximum number of wins.
-Update the table whenever the switchPoint changes.
-
-With the sample input, the tables should look like this:
-Switch location    | 0       | 1       | 2       | 3       | 4       |
-Before & at switch:| 0, 0, 1 | 0, 0, 2 | 1, 0, 2 | 1, 0, 3 | 1, 1, 3 |
-After switch:      | 1, 1, 2 | 1, 1, 1 | 0, 1, 1 | 0, 1, 0 | 0, 0, 0 |
-
-This is the win-loss chain:
-1 -> 2 -> 3 -> 1
-
- */
-
 import java.io.*;
 
 public class P2HoofPaperScissors {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("src/silver/resources/hps.in"));
-        PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("src/silver/resources/hps.out")));
+        BufferedReader in = new BufferedReader(new FileReader("src/silver/resources2016/hps.in"));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src/silver/resources2016/hps.out")));
 
-        int rounds = Integer.parseInt(br.readLine());
+        int rounds = Integer.parseInt(in.readLine());
         int[] results = new int[rounds];
 
         for (int round = 0; round < rounds; round++) {
-            String move = br.readLine();
+            String move = in.readLine();
             results[round] = moveToInt(move.charAt(0)); // Paper, Hoof, Scissors -> 1, 2, 3
         }
 
@@ -60,8 +42,8 @@ public class P2HoofPaperScissors {
             maxWins = Math.max(maxWins, currWins);
         }
 
-        pw.println(maxWins);
-        pw.close();
+        out.println(maxWins);
+        out.close();
     }
 
     private static int moveToInt(char move) {

@@ -1,26 +1,18 @@
 package bronze.usaco2016;
 
-/*
-
-[Explanation]
-Put the information into a Map and apply the changes.
-At the end, find the smallest milkValue and then the second smallest and use it to find the name of the cow.
-
- */
-
 import java.util.*;
 import java.io.*;
 
 public class P1DontBeLast {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("src/bronze/resources/notlast.in"));
-        PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("src/bronze/resources/notlast.out")));
+        BufferedReader in = new BufferedReader(new FileReader("src/bronze/resources2016/notlast.in"));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src/bronze/resources2016/notlast.out")));
 
-        int cowRecordCount = Integer.parseInt(br.readLine());
+        int cowRecordCount = Integer.parseInt(in.readLine());
         Map<String, Integer> record = new HashMap<>();
 
         for (int cow = 0; cow < cowRecordCount; cow++) {
-            StringTokenizer st = new StringTokenizer(br.readLine());
+            StringTokenizer st = new StringTokenizer(in.readLine());
             String name = st.nextToken();
             if (!record.containsKey(name)) {
                 record.put(name, Integer.parseInt(st.nextToken()));
@@ -41,8 +33,8 @@ public class P1DontBeLast {
             }
         }
 
-        pw.println(getKeyFromValue(record, secondSmallest));
-        pw.close();
+        out.println(getKeyFromValue(record, secondSmallest));
+        out.close();
     }
 
     private static String getKeyFromValue(Map<String, Integer> record, int value) {

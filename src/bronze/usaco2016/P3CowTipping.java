@@ -1,35 +1,17 @@
 package bronze.usaco2016;
 
-/*
-
-[Explanation]
-The best approach to this problem is to start from the bottom right corner and going left and up.
-Whenever a tipped cow is approached, flip all the cows from the top left corner to the current cow.
-Repeating this would eventually result in all normal cows.
-
-Example (1 is tipped, x stands for changed positions):
-001     111     001     110     000
-000     110     000     000     000
-110     000     000     000     000
-
-ooo     xxo     xxo     xxx     xxo
-ooo     xxo     xxo     ooo     ooo
-ooo     xxo     ooo     ooo     ooo
-
- */
-
 import java.io.*;
 
 public class P3CowTipping {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("src/bronze/resources/cowtip.in"));
-        PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("src/bronze/resources/cowtip.out")));
+        BufferedReader in = new BufferedReader(new FileReader("src/bronze/resources2016/cowtip.in"));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src/bronze/resources2016/cowtip.out")));
 
-        int sideLength = Integer.parseInt(br.readLine());
+        int sideLength = Integer.parseInt(in.readLine());
 
         int[][] grid = new int[sideLength][sideLength];
         for (int row = 0; row < sideLength; row++) {
-            String currRow = br.readLine();
+            String currRow = in.readLine();
             for (int index = 0; index < sideLength; index++) {
                 grid[index][row] = Character.getNumericValue(currRow.charAt(index));
             }
@@ -54,7 +36,7 @@ public class P3CowTipping {
             }
         }
 
-        pw.println(changes);
-        pw.close();
+        out.println(changes);
+        out.close();
     }
 }
