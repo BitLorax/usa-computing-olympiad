@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad/src/gold/usaco2015/P3_LightsOut.cpp
+iostream
+-
+cstring
+-
+

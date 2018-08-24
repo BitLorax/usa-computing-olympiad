@@ -1,0 +1,4 @@
+"C:\Users\Will Liang\.CLion2018.2\system\cygwin_cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad/cmake-build-debug
