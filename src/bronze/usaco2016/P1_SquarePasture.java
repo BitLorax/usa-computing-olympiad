@@ -3,7 +3,7 @@ package bronze.usaco2016;
 import java.util.*;
 import java.io.*;
 
-public class P1SquarePasture {
+public class P1_SquarePasture {
     public static void main(String[] args) throws IOException{
         BufferedReader in = new BufferedReader(new FileReader("src/bronze/resources2016/square.in"));
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src/bronze/resources2016/square.out")));

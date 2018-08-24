@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.StringTokenizer;
 
-public class P1WhyDidTheCowCrossTheRoadI {
+public class P1_WhyDidTheCowCrossTheRoadI {
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new FileReader("src/silver/resources2016/helpcross.in"));
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src/silver/resources2016/helpcross.out")));

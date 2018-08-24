@@ -3,7 +3,7 @@ package bronze.usaco2016;
 import java.util.*;
 import java.io.*;
 
-public class P2HoofPaperScissors {
+public class P2_HoofPaperScissors {
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new FileReader("src/bronze/resources2016/hps.in"));
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src/bronze/resources2016/hps.out")));

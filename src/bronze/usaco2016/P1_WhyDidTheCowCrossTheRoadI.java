@@ -3,7 +3,7 @@ package bronze.usaco2016;
 import java.io.*;
 import java.util.*;
 
-public class P1WhyDidTheCowCrossTheRoadI {
+public class P1_WhyDidTheCowCrossTheRoadI {
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new FileReader("src/bronze/resources2016/crossroad.in"));
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src/bronze/resources2016/crossroad.out")));

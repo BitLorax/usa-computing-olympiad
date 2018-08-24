@@ -2,7 +2,7 @@ package bronze.usaco2016;
 
 import java.io.*;
 
-public class P3CowTipping {
+public class P3_CowTipping {
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new FileReader("src/bronze/resources2016/cowtip.in"));
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src/bronze/resources2016/cowtip.out")));

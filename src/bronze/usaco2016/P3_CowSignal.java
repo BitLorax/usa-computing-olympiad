@@ -3,7 +3,7 @@ package bronze.usaco2016;
 import java.util.*;
 import java.io.*;
 
-public class P3CowSignal {
+public class P3_CowSignal {
     public static void main(String[] args) throws IOException{
         BufferedReader in = new BufferedReader(new FileReader("src/bronze/resources2016/cowsignal.in"));
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src/bronze/resources2016/cowsignal.out")));

@@ -3,7 +3,7 @@ package silver.usaco2016;
 import java.io.*;
 import java.util.*;
 
-public class P3SecretCowCode {
+public class P3_SecretCowCode {
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new FileReader("src/silver/resources2016/cowcode.in"));
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src/silver/resources2016/cowcode.out")));

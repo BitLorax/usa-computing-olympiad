@@ -2,7 +2,7 @@ package silver.usaco2016;
 
 import java.io.*;
 
-public class P2HoofPaperScissors {
+public class P2_HoofPaperScissors {
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new FileReader("src/silver/resources2016/hps.in"));
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src/silver/resources2016/hps.out")));

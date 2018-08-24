@@ -2,7 +2,7 @@ package bronze.usaco2016;
 
 import java.io.*;
 
-public class P2WhyDidTheCowCrossTheRoadII {
+public class P2_WhyDidTheCowCrossTheRoadII {
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new FileReader("src/bronze/resources2016/circlecross.in"));
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src/bronze/resources2016/circlecross.out")));

@@ -3,7 +3,7 @@ package silver.usaco2016;
 import java.util.*;
 import java.io.*;
 
-public class P1CowDanceShow {
+public class P1_CowDanceShow {
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new FileReader("src/silver/resources2016/cowdance.in"));
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src/silver/resources2016/cowdance.out")));

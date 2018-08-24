@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.StringTokenizer;
 import java.util.TreeMap;
 
-public class P3WhyDidTheCowCrossTheRoadIII {
+public class P3_WhyDidTheCowCrossTheRoadIII {
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new FileReader("src/bronze/resources2016/cowqueue.in"));
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src/bronze/resources2016/cowqueue.out")));
