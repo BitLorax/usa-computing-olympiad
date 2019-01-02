@@ -5,9 +5,14 @@ Created 4/26/2018 by Will* "OliveEdge" Liang
 ##########[USACO report]##########
 
 [Progress]
-Silver 2015 [== |   |   ]
 Bronze 2016 [===|===|===]
-Silver 2016 [===|===|== ]
+
+Silver 2015 [===|   |   ]
+Silver 2016 [===|===|===]
+
+Gold 2015 [===|===|   ]
+Gold 2016 [===|===|== ]
+Gold 2017 [== |   |   ]
 
 [Dates]
 Bronze 2016(1) P1_SquarePasture - 4/27/2018
@@ -24,7 +29,7 @@ Silver 2016(2) P1_CowDanceShow - 5/1/2018
 Silver 2016(2) P2_HoofPaperScissors - 5/2/2018 [!]
 
 Silver 2016(2) P3_SecretCowCode - 6/2/2018
----[AlphaStar Silver class - 6/11 to 6/29]---
+===[AlphaStar Silver class - 6/11 to 6/29]===
 
 Bronze 2016(3) P1_WhyDidTheCowCrossTheRoadI - 7/6/2018
 Bronze 2016(3) P2_WhyDidTheCowCrossTheRoadII - 7/6/2018 [*] [!]
@@ -36,12 +41,24 @@ Silver 2015(1) P1_SwitchingOnTheLights - 7/19/2018 [*]
 Silver 2015(1) P2_HighCardWins - 7/20/2018 [*]
 Silver 2015(1) P3_BreedCounting - 7/20/2018 [*]
 Gold 2015(1) P1_HighCardLowCard - 7/22/2018 [*] [!]
----[AlphaStar Gold class -
-
+===[AlphaStar Gold class - 7/23 to 8/10]===
 Gold 2015(1) P2_FruitFeast - 7/22/2018
+
 Gold 2015(1) P3_BessiesDream - 8/18/2018 [!] [*] FIRST USE OF C++
 Gold 2015(2) P1_AngryCows - 8/19/2018 [*] [!]
 Gold 2015(2) P2_RadioContact - 8/22/2018 [*]
 Gold 2015(2) P3_LightsOut - 8/23/2018 [*]
+Gold 2016(1) P1_Moocast - 8/23/2018 [*]
+Gold 2016(1) P2_CowChecklist - 8/23/2018 [*]
+Gold 2016(1) P3_LasersAndMirrors - 8/25/2018 [*]
+Gold 2016(2) P1_BalancedPhoto - 8/25/2018 [*] [!]
+Gold 2016(2) P2_HoofPaperScissors - 8/25/2018 [*] [!]
+
+Gold 2016(2) P3_CowNavigation - 9/1/2018 [*] [!]
+Gold 2016(3) P1_WhyDidTheCowCrossTheRoadI - 9/2/2018 [*]
+Gold 2016(3) P2_WhyDidTheCowCrossTheRoadII - 9/2/2018 [*]
+Gold 2017(1) P1_APieForAPie - 9/7/2018 [*] [!]
+Gold 2017(1) P3_HaybaleFeast - 9/8/2018 [*]
+
 
 * Legal name Jiahua Liang

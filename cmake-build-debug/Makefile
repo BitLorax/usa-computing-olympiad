@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/cygdrive/c/Users/Will Liang/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe"
+CMAKE_COMMAND = /cygdrive/c/Users/WillJ/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = "/cygdrive/c/Users/Will Liang/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe" -E remove -f
+RM = /cygdrive/c/Users/WillJ/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad"
+CMAKE_SOURCE_DIR = "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad/cmake-build-debug"
+CMAKE_BINARY_DIR = "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = "/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympi
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/cygdrive/c/Users/Will Liang/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/cygdrive/c/Users/WillJ/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/cygdrive/c/Users/Will Liang/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe" -E echo No\ interactive\ CMake\ dialog\ available.
+	/cygdrive/c/Users/WillJ/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles" "/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles" "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ USA_Computing_Olympiad/fast:
 	$(MAKE) -f CMakeFiles/USA_Computing_Olympiad.dir/build.make CMakeFiles/USA_Computing_Olympiad.dir/build
 .PHONY : USA_Computing_Olympiad/fast
 
-src/gold/usaco2015/P3_LightsOut.o: src/gold/usaco2015/P3_LightsOut.cpp.o
+src/implementations/Dijkstras.o: src/implementations/Dijkstras.cpp.o
 
-.PHONY : src/gold/usaco2015/P3_LightsOut.o
+.PHONY : src/implementations/Dijkstras.o
 
 # target to build an object file
-src/gold/usaco2015/P3_LightsOut.cpp.o:
-	$(MAKE) -f CMakeFiles/USA_Computing_Olympiad.dir/build.make CMakeFiles/USA_Computing_Olympiad.dir/src/gold/usaco2015/P3_LightsOut.cpp.o
-.PHONY : src/gold/usaco2015/P3_LightsOut.cpp.o
+src/implementations/Dijkstras.cpp.o:
+	$(MAKE) -f CMakeFiles/USA_Computing_Olympiad.dir/build.make CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.o
+.PHONY : src/implementations/Dijkstras.cpp.o
 
-src/gold/usaco2015/P3_LightsOut.i: src/gold/usaco2015/P3_LightsOut.cpp.i
+src/implementations/Dijkstras.i: src/implementations/Dijkstras.cpp.i
 
-.PHONY : src/gold/usaco2015/P3_LightsOut.i
+.PHONY : src/implementations/Dijkstras.i
 
 # target to preprocess a source file
-src/gold/usaco2015/P3_LightsOut.cpp.i:
-	$(MAKE) -f CMakeFiles/USA_Computing_Olympiad.dir/build.make CMakeFiles/USA_Computing_Olympiad.dir/src/gold/usaco2015/P3_LightsOut.cpp.i
-.PHONY : src/gold/usaco2015/P3_LightsOut.cpp.i
+src/implementations/Dijkstras.cpp.i:
+	$(MAKE) -f CMakeFiles/USA_Computing_Olympiad.dir/build.make CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.i
+.PHONY : src/implementations/Dijkstras.cpp.i
 
-src/gold/usaco2015/P3_LightsOut.s: src/gold/usaco2015/P3_LightsOut.cpp.s
+src/implementations/Dijkstras.s: src/implementations/Dijkstras.cpp.s
 
-.PHONY : src/gold/usaco2015/P3_LightsOut.s
+.PHONY : src/implementations/Dijkstras.s
 
 # target to generate assembly for a file
-src/gold/usaco2015/P3_LightsOut.cpp.s:
-	$(MAKE) -f CMakeFiles/USA_Computing_Olympiad.dir/build.make CMakeFiles/USA_Computing_Olympiad.dir/src/gold/usaco2015/P3_LightsOut.cpp.s
-.PHONY : src/gold/usaco2015/P3_LightsOut.cpp.s
+src/implementations/Dijkstras.cpp.s:
+	$(MAKE) -f CMakeFiles/USA_Computing_Olympiad.dir/build.make CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.s
+.PHONY : src/implementations/Dijkstras.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... USA_Computing_Olympiad"
 	@echo "... edit_cache"
-	@echo "... src/gold/usaco2015/P3_LightsOut.o"
-	@echo "... src/gold/usaco2015/P3_LightsOut.i"
-	@echo "... src/gold/usaco2015/P3_LightsOut.s"
+	@echo "... src/implementations/Dijkstras.o"
+	@echo "... src/implementations/Dijkstras.i"
+	@echo "... src/implementations/Dijkstras.s"
 .PHONY : help
 
 

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/cygdrive/c/Users/Will Liang/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe"
+CMAKE_COMMAND = /cygdrive/c/Users/WillJ/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = "/cygdrive/c/Users/Will Liang/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe" -E remove -f
+RM = /cygdrive/c/Users/WillJ/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad"
+CMAKE_SOURCE_DIR = "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad/cmake-build-debug"
+CMAKE_BINARY_DIR = "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/USA_Computing_Olympiad.dir/depend.make
@@ -57,30 +57,30 @@ include CMakeFiles/USA_Computing_Olympiad.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/USA_Computing_Olympiad.dir/flags.make
 
-CMakeFiles/USA_Computing_Olympiad.dir/src/gold/usaco2015/P3_LightsOut.cpp.o: CMakeFiles/USA_Computing_Olympiad.dir/flags.make
-CMakeFiles/USA_Computing_Olympiad.dir/src/gold/usaco2015/P3_LightsOut.cpp.o: ../src/gold/usaco2015/P3_LightsOut.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/USA_Computing_Olympiad.dir/src/gold/usaco2015/P3_LightsOut.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/USA_Computing_Olympiad.dir/src/gold/usaco2015/P3_LightsOut.cpp.o -c "/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad/src/gold/usaco2015/P3_LightsOut.cpp"
+CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.o: CMakeFiles/USA_Computing_Olympiad.dir/flags.make
+CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.o: ../src/implementations/Dijkstras.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.o -c "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/implementations/Dijkstras.cpp"
 
-CMakeFiles/USA_Computing_Olympiad.dir/src/gold/usaco2015/P3_LightsOut.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/USA_Computing_Olympiad.dir/src/gold/usaco2015/P3_LightsOut.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad/src/gold/usaco2015/P3_LightsOut.cpp" > CMakeFiles/USA_Computing_Olympiad.dir/src/gold/usaco2015/P3_LightsOut.cpp.i
+CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/implementations/Dijkstras.cpp" > CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.i
 
-CMakeFiles/USA_Computing_Olympiad.dir/src/gold/usaco2015/P3_LightsOut.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/USA_Computing_Olympiad.dir/src/gold/usaco2015/P3_LightsOut.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad/src/gold/usaco2015/P3_LightsOut.cpp" -o CMakeFiles/USA_Computing_Olympiad.dir/src/gold/usaco2015/P3_LightsOut.cpp.s
+CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/implementations/Dijkstras.cpp" -o CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.s
 
 # Object files for target USA_Computing_Olympiad
 USA_Computing_Olympiad_OBJECTS = \
-"CMakeFiles/USA_Computing_Olympiad.dir/src/gold/usaco2015/P3_LightsOut.cpp.o"
+"CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.o"
 
 # External object files for target USA_Computing_Olympiad
 USA_Computing_Olympiad_EXTERNAL_OBJECTS =
 
-USA_Computing_Olympiad.exe: CMakeFiles/USA_Computing_Olympiad.dir/src/gold/usaco2015/P3_LightsOut.cpp.o
+USA_Computing_Olympiad.exe: CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.o
 USA_Computing_Olympiad.exe: CMakeFiles/USA_Computing_Olympiad.dir/build.make
 USA_Computing_Olympiad.exe: CMakeFiles/USA_Computing_Olympiad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable USA_Computing_Olympiad.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable USA_Computing_Olympiad.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/USA_Computing_Olympiad.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +93,6 @@ CMakeFiles/USA_Computing_Olympiad.dir/clean:
 .PHONY : CMakeFiles/USA_Computing_Olympiad.dir/clean
 
 CMakeFiles/USA_Computing_Olympiad.dir/depend:
-	cd "/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad" "/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad" "/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad/cmake-build-debug" "/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad/cmake-build-debug" "/cygdrive/c/Users/Will Liang/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad" "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad" "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/cmake-build-debug" "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/cmake-build-debug" "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/USA_Computing_Olympiad.dir/depend
 
