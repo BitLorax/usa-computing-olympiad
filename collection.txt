@@ -1,0 +1,11 @@
+BFS
+Binary Search for solution     consider ALL variables, not just the answer or the obvious one
+Complete Search
+DFS
+Dijkstras
+Dynamic Programming
+Fenwick Tree / BIT
+Greedy
+Sliding Window DP
+Segment Tree
+Sweepline / Changepoints

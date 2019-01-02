@@ -1,0 +1,118 @@
+
+=== Binary Search ===
+Requirements:
+    NONE
+Functions:
+    void binarySearch(int[] &array) O(logN)
+Notes:
+    *it upper_bound(*it start, *it end, int target) returns >
+    *it lower_bound(*it start, *it end, int target) returns >=
+    bool binary_search(*it start, *it end, int target)
+
+=== Bellman-Ford ===
+Requirements:
+    int dists[N + 1]
+Functions:
+    bool bellmanFord(vector<Edge> &edges, int start) O(VE)
+Notes:
+    works for negative edges (upgraded Dijkstra's but slower)
+    can detect negative weight cycle
+Implementation Details:
+    bool bellmanFord() returns true if there is no negative cycle
+
+=== BFS ===
+Requirements:
+    NONE, depends on usage
+Functions:
+    void BFS(vector<int> &connections[]) O(V + E)
+Notes:
+    could use priority_queue for certain situations
+    used for floodfill
+Implementation Details:
+    NONE
+
+=== Dijkstra's ===
+Requirements:
+    int dists[N + 1]
+Functions:
+    void dijkstra(vector<pair<int, int>> &connections[], int start) O(E * logV)
+Notes:
+    does not work with negative edges
+Implementation Details:
+    set all values of int dists[] to -1 first
+
+=== Floyd-Warshall ===
+Requirements:
+    int connections[N + 1][N + 1]
+Functions:
+    void floydWarshall() O(N^3)
+Notes:
+    works for negative edges
+Implementation Details:
+    initiate connections[][] to INF first, exclude connections[i][i]
+
+=== Prim's ===
+Requirements:
+    int parent[N + 1];
+Functions:
+    int prims(vector<pair<int, int>> &connections[]) O(ElogV)
+Notes:
+    builds minimum spanning tree
+    works for negative edges
+    greedy
+Implementation Details:
+    len > a.len sorts by increasing order
+
+=== Range Minimum Query ===
+Requirements:
+    int mins[N][(int)(log2(N))];
+Functions:
+    void preprocess(int &arr[]) O(NlogN)
+    void query(int lo, int hi) O(1)
+Notes:
+    uses sparse table, not seg tree
+    cannot do updates
+    also works for maximum
+Implementation Details:
+    NONE
+
+=== Segment Tree ===
+Requirements:
+    int segTree[2 * (1 << (int)(ceil(log2(N))))];
+    int lazy[2 * (1 << (int)(ceil(log2(N))))];
+Functions:
+    int func(int a, int b) O(1)
+    void construct(int &arr[], 1, 0, N - 1) O(N)
+    void update(1, 0, N - 1, int i, int j, int val) O(logN)
+    int query(1, 0, N - 1, int i, int j) O(logN)
+Notes:
+    can be used for many different functions (max, min, sum)
+    uses lazy propagation
+Implementation Details:
+    int node = 1, a = 0, b = N - 1
+    everything is 0 indexed
+    int i, j searches [i, j]
+    int func(int a, int b) can be changed
+
+=== Sweepline ===
+Requirements:
+    int arr[2N];
+    (optional) multiset<int>
+Functions:
+    void sweepline() O(N), O(NlogN) with set
+Notes:
+    can be combined with DP, new point builds off existing point(s)
+Implementation Details:
+    NONE
+
+=== Union Find ===
+Requirements:
+    int parent[N + 1]
+    int depth[N + 1]
+Functions:
+    int find(int node) O(1)
+    void join(int a, int b) O(1)
+Implementation Details:
+    NONE
+
+*some algorithms can use structs in place of ints
