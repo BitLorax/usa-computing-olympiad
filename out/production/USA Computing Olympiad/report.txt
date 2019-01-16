@@ -1,0 +1,40 @@
+
+Created 4/26/2018 by Will* "OliveEdge" Liang
+!: had help
+
+##########[USACO report]##########
+
+[Progress]
+Silver 2015 [== |   |   ]
+Bronze 2016 [===|===|===]
+Silver 2016 [===|===|== ]
+
+[Dates]
+Bronze 2016(1) P1_SquarePasture - 4/27/2018
+Bronze 2016(1) P2_BlockGame - 4/27/2018
+Bronze 2016(1) P3_CowSignal - 4/27/2018
+Silver 2016(1) P1_CountingHaybales - 4/28/2018 [!]
+Silver 2016(1) P2_CitiesAndStates - 4/29/2018 [!]
+Silver 2016(1) P3_Moocast - 4/29/2018 [!]
+Bronze 2016(2) P1_DontBeLast - 4/30/2018
+Bronze 2016(2) P2_HoofPaperScissors - 4/30/2018
+Bronze 2016(2) P3_CowTipping -4/30/2018
+
+Silver 2016(2) P1_CowDanceShow - 5/1/2018
+Silver 2016(2) P2_HoofPaperScissors - 5/2/2018 [!]
+
+Silver 2016(2) P3_SecretCowCode - 6/2/2018
+---[AlphaStar Silver class - 6/11 to 6/29]---
+
+Bronze 2016(3) P1_WhyDidTheCowCrossTheRoadI - 7/6/2018
+Bronze 2016(3) P2_WhyDidTheCowCrossTheRoadII - 7/6/2018 [*] [!]
+Bronze 2016(3) P3_WhyDidTheCowCrossTheRoadIII - 7/6/2018 [*]
+Silver 2016(3) P1_WhyDidTheCowCrossTheRoadI - 7/6/2018 [*] [!]
+Silver 2016(3) P2_WhyDidTheCowCrossTheRoadII - 7/6/2018 [*]
+Silver 2016(3) P3_WhyDidTheCowCrossTheRoadIII - 7/17/2018 [*]
+Silver 2015(1) P1_SwitchingOnTheLights - 7/19/2018 [*]
+Silver 2015(1) P2_HighCardWins - 7/20/2018 [*]
+Silver 2015(1) P3_BreedCounting - 7/20/2018 [*]
+Gold 2015(1) P1_HighCardLowCard - 7/22/2018 [*] [!]
+
+* Legal name Jiahua Liang
