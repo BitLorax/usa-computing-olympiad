@@ -123,32 +123,32 @@ USA_Computing_Olympiad/fast:
 	$(MAKE) -f CMakeFiles/USA_Computing_Olympiad.dir/build.make CMakeFiles/USA_Computing_Olympiad.dir/build
 .PHONY : USA_Computing_Olympiad/fast
 
-src/implementations/Dijkstras.o: src/implementations/Dijkstras.cpp.o
+src/practice/gold/usaco2017/P3_StampPainting.o: src/practice/gold/usaco2017/P3_StampPainting.cpp.o
 
-.PHONY : src/implementations/Dijkstras.o
+.PHONY : src/practice/gold/usaco2017/P3_StampPainting.o
 
 # target to build an object file
-src/implementations/Dijkstras.cpp.o:
-	$(MAKE) -f CMakeFiles/USA_Computing_Olympiad.dir/build.make CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.o
-.PHONY : src/implementations/Dijkstras.cpp.o
+src/practice/gold/usaco2017/P3_StampPainting.cpp.o:
+	$(MAKE) -f CMakeFiles/USA_Computing_Olympiad.dir/build.make CMakeFiles/USA_Computing_Olympiad.dir/src/practice/gold/usaco2017/P3_StampPainting.cpp.o
+.PHONY : src/practice/gold/usaco2017/P3_StampPainting.cpp.o
 
-src/implementations/Dijkstras.i: src/implementations/Dijkstras.cpp.i
+src/practice/gold/usaco2017/P3_StampPainting.i: src/practice/gold/usaco2017/P3_StampPainting.cpp.i
 
-.PHONY : src/implementations/Dijkstras.i
+.PHONY : src/practice/gold/usaco2017/P3_StampPainting.i
 
 # target to preprocess a source file
-src/implementations/Dijkstras.cpp.i:
-	$(MAKE) -f CMakeFiles/USA_Computing_Olympiad.dir/build.make CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.i
-.PHONY : src/implementations/Dijkstras.cpp.i
+src/practice/gold/usaco2017/P3_StampPainting.cpp.i:
+	$(MAKE) -f CMakeFiles/USA_Computing_Olympiad.dir/build.make CMakeFiles/USA_Computing_Olympiad.dir/src/practice/gold/usaco2017/P3_StampPainting.cpp.i
+.PHONY : src/practice/gold/usaco2017/P3_StampPainting.cpp.i
 
-src/implementations/Dijkstras.s: src/implementations/Dijkstras.cpp.s
+src/practice/gold/usaco2017/P3_StampPainting.s: src/practice/gold/usaco2017/P3_StampPainting.cpp.s
 
-.PHONY : src/implementations/Dijkstras.s
+.PHONY : src/practice/gold/usaco2017/P3_StampPainting.s
 
 # target to generate assembly for a file
-src/implementations/Dijkstras.cpp.s:
-	$(MAKE) -f CMakeFiles/USA_Computing_Olympiad.dir/build.make CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.s
-.PHONY : src/implementations/Dijkstras.cpp.s
+src/practice/gold/usaco2017/P3_StampPainting.cpp.s:
+	$(MAKE) -f CMakeFiles/USA_Computing_Olympiad.dir/build.make CMakeFiles/USA_Computing_Olympiad.dir/src/practice/gold/usaco2017/P3_StampPainting.cpp.s
+.PHONY : src/practice/gold/usaco2017/P3_StampPainting.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... USA_Computing_Olympiad"
 	@echo "... edit_cache"
-	@echo "... src/implementations/Dijkstras.o"
-	@echo "... src/implementations/Dijkstras.i"
-	@echo "... src/implementations/Dijkstras.s"
+	@echo "... src/practice/gold/usaco2017/P3_StampPainting.o"
+	@echo "... src/practice/gold/usaco2017/P3_StampPainting.i"
+	@echo "... src/practice/gold/usaco2017/P3_StampPainting.s"
 .PHONY : help
 
 

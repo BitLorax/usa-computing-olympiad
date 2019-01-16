@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.o"
+  "CMakeFiles/USA_Computing_Olympiad.dir/src/practice/gold/usaco2017/P3_StampPainting.cpp.o"
   "USA_Computing_Olympiad.pdb"
   "USA_Computing_Olympiad.exe"
   "libUSA_Computing_Olympiad.dll.a"

@@ -57,27 +57,27 @@ include CMakeFiles/USA_Computing_Olympiad.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/USA_Computing_Olympiad.dir/flags.make
 
-CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.o: CMakeFiles/USA_Computing_Olympiad.dir/flags.make
-CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.o: ../src/implementations/Dijkstras.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.o -c "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/implementations/Dijkstras.cpp"
+CMakeFiles/USA_Computing_Olympiad.dir/src/practice/gold/usaco2017/P3_StampPainting.cpp.o: CMakeFiles/USA_Computing_Olympiad.dir/flags.make
+CMakeFiles/USA_Computing_Olympiad.dir/src/practice/gold/usaco2017/P3_StampPainting.cpp.o: ../src/practice/gold/usaco2017/P3_StampPainting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/USA_Computing_Olympiad.dir/src/practice/gold/usaco2017/P3_StampPainting.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/USA_Computing_Olympiad.dir/src/practice/gold/usaco2017/P3_StampPainting.cpp.o -c "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/practice/gold/usaco2017/P3_StampPainting.cpp"
 
-CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/implementations/Dijkstras.cpp" > CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.i
+CMakeFiles/USA_Computing_Olympiad.dir/src/practice/gold/usaco2017/P3_StampPainting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/USA_Computing_Olympiad.dir/src/practice/gold/usaco2017/P3_StampPainting.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/practice/gold/usaco2017/P3_StampPainting.cpp" > CMakeFiles/USA_Computing_Olympiad.dir/src/practice/gold/usaco2017/P3_StampPainting.cpp.i
 
-CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/implementations/Dijkstras.cpp" -o CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.s
+CMakeFiles/USA_Computing_Olympiad.dir/src/practice/gold/usaco2017/P3_StampPainting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/USA_Computing_Olympiad.dir/src/practice/gold/usaco2017/P3_StampPainting.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/practice/gold/usaco2017/P3_StampPainting.cpp" -o CMakeFiles/USA_Computing_Olympiad.dir/src/practice/gold/usaco2017/P3_StampPainting.cpp.s
 
 # Object files for target USA_Computing_Olympiad
 USA_Computing_Olympiad_OBJECTS = \
-"CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.o"
+"CMakeFiles/USA_Computing_Olympiad.dir/src/practice/gold/usaco2017/P3_StampPainting.cpp.o"
 
 # External object files for target USA_Computing_Olympiad
 USA_Computing_Olympiad_EXTERNAL_OBJECTS =
 
-USA_Computing_Olympiad.exe: CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Dijkstras.cpp.o
+USA_Computing_Olympiad.exe: CMakeFiles/USA_Computing_Olympiad.dir/src/practice/gold/usaco2017/P3_StampPainting.cpp.o
 USA_Computing_Olympiad.exe: CMakeFiles/USA_Computing_Olympiad.dir/build.make
 USA_Computing_Olympiad.exe: CMakeFiles/USA_Computing_Olympiad.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable USA_Computing_Olympiad.exe"

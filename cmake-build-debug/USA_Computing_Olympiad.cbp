@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/implementations/Dijkstras.cpp">
+		<Unit filename="/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/practice/gold/usaco2017/P3_StampPainting.cpp">
 			<Option target="USA_Computing_Olympiad"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/CMakeLists.txt">
