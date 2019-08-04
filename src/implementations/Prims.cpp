@@ -19,7 +19,6 @@ struct State {
 
 int parent[N + 1];
 
-//Prim's
 int prims(vector<pair<int, int>> &connections[]) {
     int len = 0;
     priority_queue<State> q;
@@ -35,7 +34,6 @@ int prims(vector<pair<int, int>> &connections[]) {
     }
     return len;
 }
-//Prim's
 
 int main() {
     return 0;

@@ -43,6 +43,24 @@ Notes:
 Implementation Details:
     set all values of int dists[] to -1 first
 
+=== Fast Exponentation ===
+Requirements:
+    NONE
+Functions:
+    long long exp(long long base, long long power) O(logN)
+Notes:
+    NONE
+Implementation Details:
+    copy-paste
+
+=== Fenwick's ===
+Requirements:
+    int fenwick[N]
+Functions:
+    int queryFenwick(int index) O(logN)
+    void updateFenwick(int index, int add) O(logN)
+Notes:
+
 === Floyd-Warshall ===
 Requirements:
     int connections[N + 1][N + 1]
@@ -52,6 +70,41 @@ Notes:
     works for negative edges
 Implementation Details:
     initiate connections[][] to INF first, exclude connections[i][i]
+
+=== Greedy ===
+Requirements:
+    NONE, depends on usage
+Functions:
+    NONE, depends on usage
+Notes:
+    NONE
+Implementation Details:
+    NONE
+
+=== Kruskal's ===
+Requirements:
+    int parent[N];
+    int depth[N];
+Functions:
+    int kruskals(vector<Edge> edges) O(ElogV)
+Notes:
+    builds minimum spanning tree
+    uses union find
+    can be modified for maximum spanning tree, "minimum" spanning subgraph, minimum "spanning forest," etc.
+
+=== Longest Increasing Subsequence ===
+Requirements:
+    NONE
+Functions:
+    void longestIncreasingSubsequence(int seq[]) O(NlogN)
+Notes:
+    can only calculate size of LIS
+    vector<int> subseq is not the LIS, LIS cannot be traced
+    LIS can be calculated with DP for O(N^2) with tracing
+
+    refer to page 105
+Implementation Details:
+    NONE
 
 === Lowest Common Ancestor ===
 Requirements:

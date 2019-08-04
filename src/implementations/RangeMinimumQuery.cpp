@@ -1,39 +1,45 @@
-//
-// Created by WillJ on 1/1/2019.
-//
 
 #include <iostream>
 #include <cmath>
+#include <vector>
 
-#define INF 2000000000
 #define N 1000
+#define LOG 10
 
 using namespace std;
 
-int mins[N][(int)(log2(N))];
+namespace rmq {
+    int n;
+    int mins[N + 1][LOG + 1];
+    /**
+     * Preprocesses arr in O(NlogN)
+     *
+     * @param arr Array to be preprocessed
+     * @param size Size of array
+     */
+    void preprocess(int arr[], int size) {
+        n = size;
 
-//Range Minimum Query
-void preprocess(int arr[]) {
-    for (int i = 0; i < N; i++) mins[i][0] = i;
-    for (int j = 1; (1 << j) <= N; j++) {
-        for (int i = 0; (i + (1 << j)) <= N; i++) {
-            if (arr[mins[i][j - 1]] < arr[mins[i + (1 << (j - 1))][j - 1]]) mins[i][j] = mins[i][j - 1];
-            else mins[i][j] = mins[i + (1 << (j - 1))][j - 1];
+        for (int i = 0; i < n; i++) mins[i][0] = i;
+        for (int j = 1; (1 << j) <= n; j++) {
+            for (int i = 0; (i + (1 << j)) <= n; i++) {
+                if (arr[mins[i][j - 1]] < arr[mins[i + (1 << (j - 1))][j - 1]]) mins[i][j] = mins[i][j - 1];
+                else mins[i][j] = mins[i + (1 << (j - 1))][j - 1];
+            }
         }
     }
-}
-int query(int arr[], int lo, int hi) {
-    int i = (int)(log2(hi - lo + 1));
-    if (arr[mins[lo][i]] <= arr[mins[hi - (1 << i) + 1][i]]) return mins[lo][i];
-    return mins[hi - (1 << i) + 1][i];
-}
-//Range Minimum Query
+    /**
+     * Queries mins in O(1)
+     *
+     * @param arr Array to query
+     * @param lo Low index
+     * @param hi High index
+     * @return Index of minimum value from range [lo, hi]
+     */
+    int query(int arr[], int lo, int hi) {
+        int i = (int)(log2(hi - lo + 1));
+        if (arr[mins[lo][i]] <= arr[mins[hi - (1 << i) + 1][i]]) return mins[lo][i];
+        return mins[hi - (1 << i) + 1][i];
+    }
+};
 
-int main() {
-    int arr[] = {7, 2, 3, 0, 5, 10, 3, 12, 18};
-    preprocess(arr);
-    cout << query(arr, 0, 4) << endl;
-    cout << query(arr, 4, 7) << endl;
-    cout << query(arr, 7, 8) << endl;
-    return 0;
-}

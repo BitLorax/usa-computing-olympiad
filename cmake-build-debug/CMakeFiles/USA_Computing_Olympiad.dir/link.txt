@@ -1,1 +1,1 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/USA_Computing_Olympiad.dir/src/practice/gold/usaco2017/P3_StampPainting.cpp.o  -o USA_Computing_Olympiad.exe -Wl,--out-implib,libUSA_Computing_Olympiad.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Kruskals.cpp.o  -o USA_Computing_Olympiad.exe -Wl,--out-implib,libUSA_Computing_Olympiad.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

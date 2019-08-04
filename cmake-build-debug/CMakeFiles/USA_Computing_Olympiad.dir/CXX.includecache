@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/practice/gold/usaco2017/P3_StampPainting.cpp
+/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/implementations/SuffixArray.cpp
 iostream
+-
+fstream
+-
+vector
+-
+algorithm
 -
 

@@ -1,76 +1,101 @@
-//
-// Created by WillJ on 1/1/2019.
-//
 
 #include <iostream>
 #include <cmath>
 
-#define INF 2000000000
 #define N 1000
+#define LOG 12
 
 using namespace std;
 
-int segTree[2 * (1 << (int)(ceil(log2(N))))];
-int lazy[2 * (1 << (int)(ceil(log2(N))))];
+namespace segTree {
+    int segTree[1 << LOG];
+    int lazy[1 << LOG];
+    int n;
 
-//Segment Tree
-int func(int a, int b) {
-    return a + b;
-}
-void construct(int &arr[], int node, int a, int b) {
-    if (a > b) return;
-    if (a == b) {
-        segTree[node] = arr[a];
-        return;
+    /**
+     * Segment tree's function
+     *
+     * @param a value one
+     * @param b value two
+     * @return return the function of a and b
+     *
+     * Note: when changing functions, check validity of
+     *   push()'s propogation (especially the multiplication)
+     *   and query()'s default values
+     */
+    inline int func(int a, int b) {
+        return a + b;
     }
-    construct(arr, node * 2, a, (a + b) / 2);
-    construct(arr, node * 2 + 1, (a + b) / 2 + 1, b);
-    segTree[node] = func(segTree[node * 2], segTree[node * 2 + 1]);
-}
-
-void update(int node, int a, int b, int i, int j, int val) {
-    if (lazy[node] != 0) {
-        segTree[node] += lazy[node];
-        if (a != b) {
-            lazy[node * 2] += lazy[node];
-            lazy[node * 2 + 1] += lazy[node];
+    /**
+     * Pushes lazy propogation
+     *
+     * @param node node to push
+     * @param a node's lower index
+     * @param b node's higher index
+     *
+     */
+    void push(int node, int a, int b) {
+        if (lazy[node] != 0) {
+            segTree[node] += (b - a) * lazy[node];
+            if (a != b) {
+                lazy[node * 2] += lazy[node];
+                lazy[node * 2 + 1] += lazy[node];
+            }
+            lazy[node] = 0;
         }
-        lazy[node] = 0;
     }
+    /**
+     * Sets up segment tree in O(N)
+     *
+     * @param arr Array to be processed
+     * @param size Size of array
+     */
+    void construct(int arr[], int size, int node = 1, int a = 0, int b = -1) {
+        n = size;
+        if (b == -1) b = n - 1;
 
-    if (a > b || a > j || b < i) return;
-    if (a >= i && b <= j) {
-        segTree[node] += val;
-        if (a != b) {
-            lazy[node * 2] += val;
-            lazy[node * 2 + 1] += val;
+        if (a > b) return;
+        if (a == b) {
+            segTree[node] = arr[a];
+            return;
         }
-        return;
+        construct(arr, size, node * 2, a, (a + b) / 2);
+        construct(arr, size, node * 2 + 1, (a + b) / 2 + 1, b);
+        segTree[node] = func(segTree[node * 2], segTree[node * 2 + 1]);
     }
-    update(node * 2, a, (a + b) / 2, i, j, val);
-    update(node * 2 + 1, (a + b) / 2 + 1, b, i, j, val);
-    segTree[node] = func(segTree[node * 2], segTree[node * 2 + 1]);
-}
-
-int query(int node, int a, int b, int i, int j) {
-    if (a > b || a > j || b < i) return 0;
-
-    if (lazy[node] != 0) {
-        segTree[node] += lazy[node];
-        if (a != b) {
-            lazy[node * 2] += lazy[node];
-            lazy[node * 2 + 1] += lazy[node];
+    /**
+     * Updates value of index in O(logN)
+     *
+     * @param index Index to update
+     * @param add Value to add to array
+     */
+    void update(int i, int j, int val, int node = 1, int a = 0, int b = -1) {
+        if (b == -1) b = n - 1;
+        push(node, a, b);
+        if (a > j || b < i) return;
+        if (a >= i && b <= j) {
+            lazy[node] += val;
+            push(node, a, b);
+            return;
         }
-        lazy[node] = 0;
+        update(i, j, val, node * 2, a, (a + b) / 2);
+        update(i, j, val, node * 2 + 1, (a + b) / 2 + 1, b);
+        segTree[node] = func(segTree[node * 2], segTree[node * 2 + 1]);
     }
-
-    if (a >= i && b <= j) return segTree[node];
-    int one = query(node * 2, a, (a + b) / 2, i, j);
-    int two = query(node * 2 + 1, (a + b) / 2 + 1, b, i, j);
-    return func(one, two);
-}
-//Segment Tree
-
-int main() {
-    return 0;
-}
+    /**
+     * Queries the segment tree for the sum of [from, to] in O(logN)
+     *
+     * @param from Lower index
+     * @param to Higher index
+     * @return sum of values in array [from, to]
+     */
+    int query(int i, int j, int node = 1, int a = 0, int b = -1) {
+        if (b == -1) b = n -1;
+        push(node, a, b);
+        if (a > b || a > j || b < i) return 0;
+        if (a >= i && b <= j) return segTree[node];
+        int one = query(i, j, node * 2, a, (a + b) / 2);
+        int two = query(i, j, node * 2 + 1, (a + b) / 2 + 1, b);
+        return func(one, two);
+    }
+};

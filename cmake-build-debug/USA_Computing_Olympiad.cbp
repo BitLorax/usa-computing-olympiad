@@ -34,7 +34,6 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/x86_64-pc-cygwin"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/backward"/>
@@ -56,7 +55,6 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/x86_64-pc-cygwin"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/backward"/>
@@ -82,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/practice/gold/usaco2017/P3_StampPainting.cpp">
+		<Unit filename="/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/implementations/Kruskals.cpp">
 			<Option target="USA_Computing_Olympiad"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/CMakeLists.txt">

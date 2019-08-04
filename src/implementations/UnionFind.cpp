@@ -1,43 +1,50 @@
-//
-// Created by WillJ on 12/28/2018.
-//
 
 #include <iostream>
+#include <vector>
 
-#define INF 2000000000
 #define N 1000
 
 using namespace std;
 
-int parent[N];
-int depth[N];
-
-//Union Find
-int find(int node) {
-    if (parent[node] == node) return node;
-    return parent[node] = find(parent[node]); //path compression
-}
-
-void join(int a, int b) {
-    int parA = find(a), parB = find(b);
-    if (parA == parB) return;
-    if (depth[parA] < depth[parB]) {
-        parent[parA] = parB;
+namespace unionFind {
+    int n;
+    int component[N + 1];
+    vector<int> indices[N + 1];
+    /**
+     * Initializes default values in O(N)
+     *
+     * @param size Amount of nodes
+     */
+    void construct(int size) {
+        n = size;
+        for (int i = 0; i <= n; i++) {
+            component[i] = i;
+            indices[i].push_back(i);
+        }
     }
-    else if (depth[parB] < depth[parA]) {
-        parent[parB] = parA;
+    /**
+     * Gets the highest parent of the node in O(1)
+     *
+     * @param node The node to be checked
+     * @return The highest parent of the node
+     */
+    int find(int node) {
+        return component[node];
     }
-    else {
-        parent[parA] = parB;
-        depth[parB]++;
+    /**
+     * Connects the two nodes in O(logN)
+     *
+     * @param a Node one
+     * @param b Node two
+     */
+    void join(int a, int b) {
+        if (indices[component[b]].size() > indices[component[a]].size()) {
+            int temp = a;
+            a = b; b = temp;
+        }
+        for (int j : indices[component[b]]) {
+            component[j] = component[a];
+            indices[component[a]].push_back(j);
+        }
     }
-}
-//Union Find
-
-int main() {
-    for (int i = 0; i < N; i++) {
-        parent[i] = i;
-        depth[i] = 1;
-    }
-    return 0;
-}
+};
