@@ -12,180 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65f41d75-01f7-41e0-a01f-05f7166b7ffc" name="Default" comment="New organization">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2015/P1_HighCardLowCard.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2015/P1_SplittingTheField.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2015/P2_ClosingTheFarm.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2015/P2_FruitFeast.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2015/P3_248.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2016/P1_BovineGenomics.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2016/P2_ModernArt2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2016/P3_WhyDidTheCowCrossTheRoadIII.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2017/P1_OutOfSorts.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2017/P1_SnowBoots.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2017/P2_DirectoryTraversal.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2017/P2_MilkingOrder.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2017/P3_TalentShow.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2017/P3_TamingTheHerd.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/P1_CowPoetry.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/P1_FineDining.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/P2_Cowpatibility.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/P2_Dishwashing.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/P2_SleepyCowSorting.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/P3_PaintingTheBarn.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/P3_Shortcut.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/P3_Teamwork.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/Q1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/Q1_O.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/Q2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/Q2_O.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/Q3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/Q3_O.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/toSort/Q1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/toSort/Q1_Optimal.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/toSort/Q2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/toSort/Q2_Optimal.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/toSort/Q3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/gold/usaco2018/toSort/Q3_Optimal.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/silver/usaco2016/P1_CountingHaybales.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/silver/usaco2016/P1_WhyDidTheCowCrossTheRoad.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/silver/usaco2016/P2_CitiesAndStates.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/silver/usaco2016/P3_Moocast.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/silver/usaco2017/P1_Lifeguards.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/silver/usaco2017/P1_OutOfSorts.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/silver/usaco2017/P1_RestStops.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/silver/usaco2017/P2_LemonadeLine.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/silver/usaco2017/P2_RentalService.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/silver/usaco2017/P2_SnowBoots.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/silver/usaco2017/P3_MooTube.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/silver/usaco2017/P3_MultiplayerMoo.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/silver/usaco2017/P3_Teleportation.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/silver/usaco2018/Q1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/silver/usaco2018/Q1_Optimal.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/silver/usaco2018/Q2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/silver/usaco2018/Q2_Optimal.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/silver/usaco2018/Q3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/silver/usaco2018/Q3_Optimal.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/test.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/competition/test.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implementations/ConvexHull.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implementations/Fenwicks.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implementations/HeavyLightDecomposition.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implementations/Kahns.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implementations/KnuthMorrisPratt.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implementations/Kruskals.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implementations/LongestIncreasingSubsequence.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implementations/MonotonePriorityQueue.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implementations/SuffixArray.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implementations/Tarjans.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/implementations/Utilities.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/USA Computing Olympiad.iml" beforeDir="false" afterPath="$PROJECT_DIR$/USA Computing Olympiad.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/RangeMinimumQuery.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/src/practice/gold/usaco2017/P3_StampPainting.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/src/silver/usaco2018/Q12.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/src/silver/usaco2018/Q1_2.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/src/silver/usaco2018/Q2.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/src/silver/usaco2018/test.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/USA_Computing_Olympiad.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/USA_Computing_Olympiad.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/USA_Computing_Olympiad.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/USA_Computing_Olympiad.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/USA_Computing_Olympiad.exe.stackdump" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/USA_Computing_Olympiad.exe.stackdump" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/implementations/BFS.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/BFS.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/implementations/BellmanFord.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/BellmanFord.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/implementations/BinarySearch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/BinarySearch.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/implementations/Dijkstras.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/Dijkstras.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/implementations/FloydWarshall.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/FloydWarshall.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/implementations/LowestCommonAncestor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/LowestCommonAncestor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/implementations/Prims.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/Prims.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/implementations/RangeMinimumQuery.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/RangeMinimumQuery.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/implementations/SegmentTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/SegmentTree.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/implementations/UnionFind.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/implementations/UnionFind.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/bronze/usaco2016/P1_DontBeLast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/bronze/usaco2016/P1_DontBeLast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/bronze/usaco2016/P1_SquarePasture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/bronze/usaco2016/P1_SquarePasture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/bronze/usaco2016/P1_WhyDidTheCowCrossTheRoadI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/bronze/usaco2016/P1_WhyDidTheCowCrossTheRoadI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/bronze/usaco2016/P2_BlockGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/bronze/usaco2016/P2_BlockGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/bronze/usaco2016/P2_HoofPaperScissors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/bronze/usaco2016/P2_HoofPaperScissors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/bronze/usaco2016/P2_WhyDidTheCowCrossTheRoadII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/bronze/usaco2016/P2_WhyDidTheCowCrossTheRoadII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/bronze/usaco2016/P3_CowSignal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/bronze/usaco2016/P3_CowSignal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/bronze/usaco2016/P3_CowTipping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/bronze/usaco2016/P3_CowTipping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/bronze/usaco2016/P3_WhyDidTheCowCrossTheRoadIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/bronze/usaco2016/P3_WhyDidTheCowCrossTheRoadIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/bronze/usaco2018/Q1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/bronze/usaco2018/Q1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/bronze/usaco2018/Q2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/bronze/usaco2018/Q2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/bronze/usaco2018/Q3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/bronze/usaco2018/Q3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2015/P1_AngryCows.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/gold/usaco2015/P1_AngryCows.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2015/P1_HighCardLowCard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2015/P2_FruitFeast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2015/P2_RadioContact.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/gold/usaco2015/P2_RadioContact.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2015/P3_BessiesDream.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/gold/usaco2015/P3_BessiesDream.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2015/P3_LightsOut.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/gold/usaco2015/P3_LightsOut.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2016/P1_BalancedPhoto.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/gold/usaco2016/P1_BalancedPhoto.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2016/P1_Moocast.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/gold/usaco2016/P1_Moocast.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2016/P1_WhyDidTheCowCrossTheRoadI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/gold/usaco2016/P1_WhyDidTheCowCrossTheRoadI.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2016/P2_CowChecklist.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/gold/usaco2016/P2_CowChecklist.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2016/P2_HoofPaperScissors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/gold/usaco2016/P2_HoofPaperScissors.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2016/P2_WhyDidTheCowCrossTheRoadII.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/gold/usaco2016/P2_WhyDidTheCowCrossTheRoadII.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2016/P3_CowNavigation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/gold/usaco2016/P3_CowNavigation.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2016/P3_LasersAndMirrors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/gold/usaco2016/P3_LasersAndMirrors.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2016/P3_WhyDidTheCowCrossTheRoadIII.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2017/P1_APieForAPie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/gold/usaco2017/P1_APieForAPie.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2017/P1_MooTube.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/gold/usaco2017/P1_MooTube.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2017/P2_BarnPainting.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/gold/usaco2017/P2_BarnPainting.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2017/P2_CowAtLarge.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/gold/usaco2017/P2_CowAtLarge.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2017/P3_HaybaleFeast.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/gold/usaco2017/P3_HaybaleFeast.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/gold/usaco2017/P3_StampPainting.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/gold/usaco2017/P3_StampPainting.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2015/P1_SwitchingOnTheLights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/silver/usaco2015/P1_SwitchingOnTheLights.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2015/P2_HighCardWins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/silver/usaco2015/P2_HighCardWins.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2015/P3_BreedCounting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/silver/usaco2015/P3_BreedCounting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2016/P1_CountingHaybales.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2016/P1_CowDanceShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/silver/usaco2016/P1_CowDanceShow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2016/P1_WhyDidTheCowCrossTheRoadI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2016/P2_CitiesAndStates.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2016/P2_HoofPaperScissors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/silver/usaco2016/P2_HoofPaperScissors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2016/P2_WhyDidTheCowCrossTheRoadII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/silver/usaco2016/P2_WhyDidTheCowCrossTheRoadII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2016/P3_Moocast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2016/P3_SecretCowCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/silver/usaco2016/P3_SecretCowCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2016/P3_WhyDidTheCowCrossTheRoadIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/silver/usaco2016/P3_WhyDidTheCowCrossTheRoadIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2018/Q1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/silver/usaco2018/1/Q1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2018/Q12.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/silver/usaco2018/1/Q12.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2018/Q19.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/silver/usaco2018/1/Q19.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2018/Q1_2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/silver/usaco2018/1/Q1_2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2018/Q1_3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/silver/usaco2018/1/Q1_3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2018/Q1_DP.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/silver/usaco2018/1/Q1_DP.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2018/Q2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/silver/usaco2018/1/Q2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2018/Q3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/silver/usaco2018/1/Q3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/silver/usaco2018/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/competition/silver/usaco2018/1/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/report.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -214,7 +42,6 @@
     <expand />
     <select />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="128">
       <file pinned="true" current-in-tab="false">
@@ -244,19 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="true" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/competition/test.out">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/implementations/SegmentTree.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
               <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-              <folding>
-                <element signature="e#1#20#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -275,18 +94,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="784">
               <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="e#1#20#0" expanded="true" />
-              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/implementations/Kruskals.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1792">
+              <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/implementations/Kruskals.cpp">
+        <entry file="file://$PROJECT_DIR$/src/competition/bronze/usaco2016/P2_BlockGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="747">
-              <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+            <state relative-caret-position="168">
+              <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="117" />
             </state>
           </provider>
         </entry>
@@ -423,15 +248,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="992" />
+    <option name="width" value="935" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -448,14 +275,35 @@
               <item name="USA_Computing_Olympiad" type="b2602c69:ProjectViewProjectNode" />
               <item name="USA Computing Olympiad" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="implementations" type="462c0819:PsiDirectoryNode" />
+              <item name="competition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="USA_Computing_Olympiad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="USA Computing Olympiad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="competition" type="462c0819:PsiDirectoryNode" />
+              <item name="bronze" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="USA_Computing_Olympiad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="USA Computing Olympiad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="competition" type="462c0819:PsiDirectoryNode" />
+              <item name="bronze" type="462c0819:PsiDirectoryNode" />
+              <item name="usaco2016" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="USA_Computing_Olympiad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="USA Computing Olympiad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="competition" type="462c0819:PsiDirectoryNode" />
+              <item name="bronze" type="462c0819:PsiDirectoryNode" />
+              <item name="usaco2018" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -470,6 +318,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -497,31 +348,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.Build All">
+  <component name="RunManager" selected="Application.Analyze">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -587,6 +416,12 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="USA_Computing_Olympiad" RUN_TARGET_NAME="USA_Computing_Olympiad" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -597,9 +432,27 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="CMake Application.Build All" />
-      <item itemvalue="CMake Application.USA_Computing_Olympiad" />
+      <item itemvalue="Application.Analyze" />
+      <item itemvalue="Application.P1_HighCardLowCard" />
+      <item itemvalue="Application.P2_FruitFeast" />
+      <item itemvalue="Application.P3_BreedCounting" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -725,6 +578,8 @@
       <workItem from="1563504504266" duration="4177000" />
       <workItem from="1563558905859" duration="7104000" />
       <workItem from="1564809773162" duration="599000" />
+      <workItem from="1565107188989" duration="265000" />
+      <workItem from="1565143308522" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="Completed 2016 problems from Bronze to Silver (excluding US Open)">
       <created>1531967156712</created>
@@ -771,12 +626,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="310012000" />
+    <option name="totallyTimeSpent" value="310282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="-8" width="1858" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17185763" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17519467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -870,84 +726,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="New organization" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/competition/gold/usaco2018/P3_Teamwork.cpp</url>
-          <line>63</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/competition/gold/usaco2017/P3_TamingTheHerd.cpp</url>
-          <line>32</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/competition/gold/usaco2016/P3_WhyDidTheCowCrossTheRoadIII.cpp</url>
-          <line>75</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <condition expression="i == 25" language="ObjectiveC" />
-          <url>file://$PROJECT_DIR$/src/competition/gold/usaco2015/P1_SplittingTheField.cpp</url>
-          <line>29</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/competition/gold/usaco2015/P1_SplittingTheField.cpp</url>
-          <line>68</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/competition/gold/usaco2015/P2_ClosingTheFarm.cpp</url>
-          <line>80</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/competition/gold/usaco2018/Q1.cpp</url>
-          <line>24</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/competition/gold/usaco2018/Q2.cpp</url>
-          <line>108</line>
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/competition/gold/usaco2018/Q2.cpp</url>
-          <line>72</line>
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/competition/gold/usaco2017/P1_APieForAPie.cpp</url>
-          <line>44</line>
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/competition/gold/usaco2017/P1_APieForAPie.cpp</url>
-          <line>62</line>
-          <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/competition/gold/usaco2017/P2_BarnPainting.cpp</url>
-          <line>37</line>
-          <option name="timeStamp" value="82" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/competition/gold/usaco2017/P2_BarnPainting.cpp</url>
-          <line>17</line>
-          <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/implementations/SuffixArray.cpp</url>
-          <line>57</line>
-          <option name="timeStamp" value="87" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
-        <watch expression="suffixes" language="ObjectiveC" />
+        <watch expression="suffixes" />
       </configuration>
     </watches-manager>
   </component>
@@ -1058,16 +839,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/competition/gold/usaco2018/Q1_O.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/competition/gold/usaco2016/P1_Moocast.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -1389,6 +1160,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/competition/test.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1410,16 +1184,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/competition/test.out">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/implementations/SegmentTree.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="e#1#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1434,18 +1202,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="784">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#1#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/implementations/Kruskals.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+        <state relative-caret-position="1792">
+          <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/competition/bronze/usaco2016/P2_BlockGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>USA Computing Olympiad</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
