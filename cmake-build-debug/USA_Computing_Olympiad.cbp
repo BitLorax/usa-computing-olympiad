@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/implementations/ComputationalGeometry.cpp">
+			<Option target="USA_Computing_Olympiad"/>
+		</Unit>
 		<Unit filename="C:/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/implementations/SegmentTree.cpp">
 			<Option target="USA_Computing_Olympiad"/>
 		</Unit>

@@ -1,10 +1,6 @@
-//
-// Created by WillJ on 1/2/2019.
-//
 
 #include <iostream>
 
-#define INF 2000000000
 #define N 1000
 
 using namespace std;

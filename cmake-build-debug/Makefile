@@ -122,6 +122,33 @@ USA_Computing_Olympiad/fast:
 	$(MAKE) -f CMakeFiles\USA_Computing_Olympiad.dir\build.make CMakeFiles/USA_Computing_Olympiad.dir/build
 .PHONY : USA_Computing_Olympiad/fast
 
+src/implementations/ComputationalGeometry.obj: src/implementations/ComputationalGeometry.cpp.obj
+
+.PHONY : src/implementations/ComputationalGeometry.obj
+
+# target to build an object file
+src/implementations/ComputationalGeometry.cpp.obj:
+	$(MAKE) -f CMakeFiles\USA_Computing_Olympiad.dir\build.make CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/ComputationalGeometry.cpp.obj
+.PHONY : src/implementations/ComputationalGeometry.cpp.obj
+
+src/implementations/ComputationalGeometry.i: src/implementations/ComputationalGeometry.cpp.i
+
+.PHONY : src/implementations/ComputationalGeometry.i
+
+# target to preprocess a source file
+src/implementations/ComputationalGeometry.cpp.i:
+	$(MAKE) -f CMakeFiles\USA_Computing_Olympiad.dir\build.make CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/ComputationalGeometry.cpp.i
+.PHONY : src/implementations/ComputationalGeometry.cpp.i
+
+src/implementations/ComputationalGeometry.s: src/implementations/ComputationalGeometry.cpp.s
+
+.PHONY : src/implementations/ComputationalGeometry.s
+
+# target to generate assembly for a file
+src/implementations/ComputationalGeometry.cpp.s:
+	$(MAKE) -f CMakeFiles\USA_Computing_Olympiad.dir\build.make CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/ComputationalGeometry.cpp.s
+.PHONY : src/implementations/ComputationalGeometry.cpp.s
+
 src/implementations/SegmentTree.obj: src/implementations/SegmentTree.cpp.obj
 
 .PHONY : src/implementations/SegmentTree.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... USA_Computing_Olympiad
 	@echo ... edit_cache
+	@echo ... src/implementations/ComputationalGeometry.obj
+	@echo ... src/implementations/ComputationalGeometry.i
+	@echo ... src/implementations/ComputationalGeometry.s
 	@echo ... src/implementations/SegmentTree.obj
 	@echo ... src/implementations/SegmentTree.i
 	@echo ... src/implementations/SegmentTree.s

@@ -7,9 +7,9 @@ using namespace std;
 
 /**
  * Computes base ^ pow in O(logN)
- * @param base Base
- * @param pow Power
- * @return Base ^ power
+ * @param base base
+ * @param pow power
+ * @return base ^ power
  */
 long long fastExpo(int base, int pow) {
     long long ret = 1, b = base;
@@ -21,3 +21,13 @@ long long fastExpo(int base, int pow) {
     return ret % MOD;
 }
 
+/**
+ * Computes the greatest common divisor
+ * @param a first number
+ * @param b second number
+ * @return the greatest common divisor
+ */
+int gcd(int a, int b) {
+    if (b == 0) return a;
+    return gcd(b, a % b);
+}

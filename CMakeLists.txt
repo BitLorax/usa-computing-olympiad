@@ -3,4 +3,4 @@ project(USA_Computing_Olympiad)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(USA_Computing_Olympiad src/implementations/SegmentTree.cpp)
+add_executable(USA_Computing_Olympiad src/implementations/SegmentTree.cpp src/implementations/ComputationalGeometry.cpp)

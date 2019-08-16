@@ -5,19 +5,17 @@
 #include <iostream>
 #include <queue>
 
-#define INF 2000000000
 #define N 1000
 
 using namespace std;
 
-struct State {
-    int node;
-};
-
 vector<int> connections[N + 1];
 
-
 namespace bfs {
+    struct State {
+        int node;
+    };
+
     bool visited[N + 1];
     /**
      * Runs breadth-first-search
