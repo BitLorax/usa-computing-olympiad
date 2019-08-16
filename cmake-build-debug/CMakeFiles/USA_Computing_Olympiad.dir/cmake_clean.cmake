@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Kruskals.cpp.o"
+  "CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/SegmentTree.cpp.obj"
   "USA_Computing_Olympiad.pdb"
   "USA_Computing_Olympiad.exe"
+  "USA_Computing_Olympiad.exe.manifest"
   "libUSA_Computing_Olympiad.dll.a"
 )
 

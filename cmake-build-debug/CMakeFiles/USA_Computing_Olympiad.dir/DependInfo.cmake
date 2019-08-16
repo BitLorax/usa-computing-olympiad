@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/implementations/Kruskals.cpp" "/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/Kruskals.cpp.o"
+  "C:/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/implementations/SegmentTree.cpp" "C:/Users/WillJ/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir/src/implementations/SegmentTree.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

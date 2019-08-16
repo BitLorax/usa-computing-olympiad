@@ -39,4 +39,4 @@ namespace lca {
             if (!isAncestor(up[a][i], b)) a = up[a][i];
         return up[a][0];
     }
-};
+}

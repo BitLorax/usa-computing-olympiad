@@ -36,7 +36,7 @@ namespace segTree {
      */
     void push(int node, int a, int b) {
         if (lazy[node] != 0) {
-            segTree[node] += (b - a) * lazy[node];
+            segTree[node] += (b - a + 1) * lazy[node];
             if (a != b) {
                 lazy[node * 2] += lazy[node];
                 lazy[node * 2 + 1] += lazy[node];
@@ -64,10 +64,14 @@ namespace segTree {
         segTree[node] = func(segTree[node * 2], segTree[node * 2 + 1]);
     }
     /**
-     * Updates value of index in O(logN)
+     * Updates values in [i, j] by val in O(logN)
      *
-     * @param index Index to update
-     * @param add Value to add to array
+     * @param i lower bound
+     * @param j upper bound
+     * @param val value to be added
+     * @param node current node
+     * @param a node's lower bound
+     * @param b node's upper bound
      */
     void update(int i, int j, int val, int node = 1, int a = 0, int b = -1) {
         if (b == -1) b = n - 1;
@@ -83,11 +87,14 @@ namespace segTree {
         segTree[node] = func(segTree[node * 2], segTree[node * 2 + 1]);
     }
     /**
-     * Queries the segment tree for the sum of [from, to] in O(logN)
+     * Queries the seg tree in [i, j] in O(logN)
      *
-     * @param from Lower index
-     * @param to Higher index
-     * @return sum of values in array [from, to]
+     * @param i lower bound
+     * @param j upper bound
+     * @param node current node
+     * @param a node's lower bound
+     * @param b node's upper bound
+     * @return
      */
     int query(int i, int j, int node = 1, int a = 0, int b = -1) {
         if (b == -1) b = n -1;
@@ -98,4 +105,4 @@ namespace segTree {
         int two = query(i, j, node * 2 + 1, (a + b) / 2 + 1, b);
         return func(one, two);
     }
-};
+}

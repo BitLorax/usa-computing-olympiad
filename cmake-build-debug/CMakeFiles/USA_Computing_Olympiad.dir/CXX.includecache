@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/implementations/SuffixArray.cpp
+C:/Users/WillJ/Dropbox/CS/USA Computing Olympiad/src/competition/platinum/usaco2015/P3_CountingHaybales.cpp
 iostream
--
-fstream
 -
 vector
 -
-algorithm
+fstream
 -
 

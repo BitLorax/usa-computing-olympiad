@@ -121,4 +121,8 @@ Gold
 6/20/2019   [*] [ ] Gold   2015 (1) P1_HighCardLowCard
 6/20/2019   [*] [ ] Gold   2015 (1) P2_FruitFeast
 
+8/15/2019   [*] [!] Plat   2015 (1) P1_MaxFlow
+8/15/2019   [*] [ ] Plat   2015 (1) P3_CountingHaybales
+
+
 * Legal name Jiahua Liang
