@@ -1,3 +1,0 @@
-C:/Users/WillJ/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/WillJ/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles/USA_Computing_Olympiad.dir
-C:/Users/WillJ/Dropbox/CS/USA Computing Olympiad/cmake-build-debug/CMakeFiles/edit_cache.dir
