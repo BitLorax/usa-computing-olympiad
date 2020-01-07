@@ -6,7 +6,7 @@
 
 using namespace std;
 
-namespace unionFind {
+namespace uf {
     int n;
     int component[N + 1];
     vector<int> indices[N + 1];
@@ -39,10 +39,7 @@ namespace unionFind {
       */
     bool join(int a, int b) {
         if (find(a) == find(b)) return false;
-        if (indices[component[b]].size() > indices[component[a]].size()) {
-            int temp = a;
-            a = b; b = temp;
-        }
+        if (indices[component[b]].size() > indices[component[a]].size()) swap(a, b);
         for (int j : indices[component[b]]) {
             component[j] = component[a];
             indices[component[a]].push_back(j);

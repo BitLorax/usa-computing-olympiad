@@ -15,12 +15,14 @@ Gold
     2015    [***|***|   |***]
     2016    [***|***|***|**!]
     2017    [***|***|***|***]
-    2018    [***|***|.**|...]
+    2018    [***|***|.**|**.]
+    2019	[***|   |   |   ]
 Platinum
     2015    [***|** |***|*  ]
     2016    [***|** |***|*  ]
-    2017    [***|* *|** |   ]
-    2018    [ * |   |   |   ]
+    2017    [***|***|** |* *]
+    2018    [***|*  |   |   ]
+    2019	[** |** |** |  *]
 
 
 04/27/2018  [ ] [ ] Bronze   2016 (1) P1_SquarePasture
@@ -37,7 +39,7 @@ Platinum
 05/02/2018  [ ] [!] Silver   2016 (2) P2_HoofPaperScissors
 
 06/02/2018  [ ] [ ] Silver   2016 (2) P3_SecretCowCode
-    6/11 - 6/29 AlphaStar Silver class
+    06/11/2018 - 06/29/2018 AlphaStar Silver class
 
 07/06/2018  [ ] [ ] Bronze   2016 (3) P1_WhyDidTheCowCrossTheRoadI
 07/06/2018  [ ] [!] Bronze   2016 (3) P2_WhyDidTheCowCrossTheRoadII
@@ -49,7 +51,7 @@ Platinum
 07/20/2018  [*] [ ] Silver   2015 (1) P2_HighCardWins
 07/20/2018  [*] [ ] Silver   2015 (1) P3_BreedCounting
 07/22/2018  [*] [!] Gold     2015 (1) P1_HighCardLowCard
-    07/23 - 08/10 AlphaStar Gold class
+    07/23/2018 - 08/10/2018 AlphaStar Gold class
 07/22/2018  [ ] [ ] Gold     2015 (1) P2_FruitFeast
 
     08/18/2018 Switch to C++
@@ -69,9 +71,9 @@ Platinum
 09/07/2018  [*] [!] Gold     2017 (1) P1_APieForAPie
 09/08/2018  [*] [ ] Gold     2017 (1) P3_HaybaleFeast
 
-[MISSING]
+[REDACTED]
 
-    12/14 - 12/17 USACO Dec. Competition
+    12/14/2018 - 12/17/2018 USACO Dec. Competition
         Bronze - 1000
         Silver - 400
 
@@ -79,7 +81,7 @@ Platinum
 01/18/2019  [*] [ ] Silver   2017 (3) P2_SnowBoots
 01/19/2019  [*] [!] Silver   2017 (3) P3_Teleportation
 [MISSING]
-    01/18 - 01/21 USACO Jan. Competition
+    01/18/2018 - 01/21/2018 USACO Jan. Competition
         Silver - 703*
         * Lesson learned, watch the timer when risking a submission
 
@@ -98,7 +100,7 @@ Platinum
 02/23/2019  [*] [!] Gold     2018 (1) P1_FineDining
 02/23/2019  [*] [!] Gold     2018 (1) P2_Cowpatibility*
     * Official Solution does not AC
-    02/22 - 02/25 USACO Feb. Competition
+    02/22/2018 - 02/25/2018 USACO Feb. Competition
         Silver - 1000
         Gold   - 276
 
@@ -118,7 +120,7 @@ Platinum
 03/31/2019  [*] [!] Gold     2015 (4) P1_SplittingTheField
 03/31/2019  [*] [ ] Gold     2015 (4) P2_ClosingTheFarm
 03/31/2019  [*] [!] Gold     2015 (4) P3_248
-    03/29 - 04/1 USACO US Open
+    03/29/2018 - 04/01/2018 USACO Mar. Competition (US Open)
         Gold - 603
 
 06/29/2019  [*] [!] Gold     2018 (1) P2_BarnPainting
@@ -148,7 +150,7 @@ Platinum
 10/13/2019  [*] [ ] Platinum 2015 (3) P3_CircularBarn
 10/20/2019  [*] [ ] Platinum 2015 (2) P2_MowingTheField
 10/23/2019  [*] [!] Platinum 2016 (3) P2_WhyDidTheCowCrossTheRoadII
-    10/26 CodeStar HackerEarth
+    10/26/2019 CodeStar HackerEarth
         12th out of 466
 10/31/2019  [*] [ ] Platinum 2016 (3) P1_WhyDidTheCowCrossTheRoad
 
@@ -163,4 +165,26 @@ Platinum
 12/05/2019  [*] [ ] Gold     2018 (1) P1_FineDining
 12/06/2019  [*] [ ] Gold     2018 (1) P2_Cowpatibility
 12/07/2019  [*] [ ] Gold     2018 (2) P3_Shortcut
+    12/07/2019 UCF HSPT
+        23rd out of 46
 12/08/2019  [*] [ ] Gold     2018 (3) P2_Dishwashing
+12/12/2019  [*] [ ] Gold     2018 (4) P1_Snakes
+12/13/2019  [*] [ ] Gold     2018 (4) P2_IWouldWalk500Miles
+    12/14/2019 VT HSPT
+        9th out of 102
+    12/13/2019 - 12/16/2019 USACO Dec. Competition
+    	Gold - 1000
+    	Platinum - 186
+12/22/2019	[*] [!] Platinum 2019 (1) P2_BessiesSnowCow
+12/22/2019	[*] [!] Platinum 2019 (1) P1_GreedyPieEaters
+12/30/2019	[*] [!] Platinum 2018 (1) P3_TheCowGathering
+
+01/01/2020	[*] [!] Platinum 2019 (2) P1_Redistricting
+01/02/2020	[*] [!] Platinum 2019 (2) P2_ExerciseRoute
+01/02/2020	[*] [!] Platinum 2019 (3) P1_CowDating
+01/03/2020	[*] [!] Platinum 2019 (3) P2_MoorioKart
+01/04/2020	[*] [!] Platinum 2019 (4) P3_Valleys
+01/04/2020	[*] [!] Platinum 2018 (1) P1_StandingOutFromTheHerd
+01/05/2020  [*] [!] Platinum 2017 (2) P2_CowAtLarge
+01/06/2020  [*] [ ] Platinum 2017 (4) P3_Disruption
+01/06/2020  [*] [!] Platinum 2017 (4) P1_OutOfSorts

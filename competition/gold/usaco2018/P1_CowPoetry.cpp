@@ -40,10 +40,12 @@ int main() {
     for (int i = 0; i < wordCount; i++) {
         cin >> words[i].len >> words[i].rhyme;
     }
+
     for (int i = 0; i < lineReq; i++) {
         char a; cin >> a;
         freq[a]++;
     }
+
     DP[0] = 1;
     for (int i = 0; i <= lenReq; i++) {
         for (int j = 0; j < wordCount; j++) {

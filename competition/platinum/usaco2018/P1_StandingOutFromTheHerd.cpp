@@ -1,14 +1,9 @@
-//
-// Created by WillJ on 7/4/2019.
-//
 
-#include <iostream>
-#include <fstream>
-#include <vector>
-#include <algorithm>
+#include <bits/stdc++.h>
 
-#define N 1000
-#define INF 2000000000
+#define N 100000
+#define f first
+#define s second
 
 using namespace std;
 
@@ -23,13 +18,13 @@ namespace sa {
     };
 
     string str; int len;
-    Suffix s[N + 1];
-    int indx[N + 1];
-    int loc[N + 1];
-    int lcp[N + 1];
+    Suffix s[2 * N + 1];
+    int indx[2 * N + 1];
+    int loc[2 * N + 1];
+    int lcp[2 * N + 1];
 
     void construct(string in) {
-        str = in; len = str.length();
+        str = in; len = str.size();
         str += "$";
         for (int i = 0; i < len; i++) {
             s[i] = Suffix{i, make_pair(str[i] - 'a', str[i + 1] - 'a')};
@@ -55,7 +50,7 @@ namespace sa {
             sort(s, s + len);
         }
     }
-    void findLCP(string str) {
+    void findLCP() {
         for (int i = 0; i < len; ++i) {
             loc[s[i].indx] = i;
         }
@@ -71,6 +66,43 @@ namespace sa {
     }
 }
 
+int res[2 * N + 1];
+
 int main() {
+    ios_base::sync_with_stdio(false);
+    ifstream cin("standingout.in");
+    ofstream cout("standingout.out");
+
+    int n; cin >> n;
+    string s; vector<pair<int, int>> v;
+    for (int i = 0; i < n; ++i) {
+        string a; cin >> a;
+        s += a; s += "?";
+        for (int j = 0; j < a.size(); ++j) {
+            v.emplace_back(i, a.size() - j);
+        }
+        v.emplace_back(-1, -1);
+    }
+
+    sa::construct(s);
+    sa::findLCP();
+
+    int len = s.size();
+    for (int i = n; i < len; ++i) {
+        int id = v[sa::s[i].indx].f;
+        int k = 0;
+        while (i + k < len && v[sa::s[i + k].indx].f == id) k++;
+        int lo = (i ? sa::lcp[i - 1] : 0);
+        for (int j = i; j < i + k; ++j) {
+            res[id] += max(0, v[sa::s[j].indx].s - max(lo, sa::lcp[j]));
+            lo = min(lo, sa::lcp[j]);
+        }
+        i += k; i--;
+    }
+
+    for (int i = 0; i < n; ++i) {
+        cout << res[i] << endl;
+    }
+    
     return 0;
 }

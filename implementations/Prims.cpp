@@ -7,32 +7,29 @@
 
 #define INF 2000000000
 #define N 1000
+#define f first
+#define s second
 
 using namespace std;
 
-struct State {
-    int node, len, parent;
-    bool operator<(const State &a) const {
-        return len > a.len;
-    }
-};
-
 int parent[N + 1];
+vector<pair<int, int>> c[N];
+int d[N + 1]; bool v[N + 1];
 
-int prims(vector<pair<int, int>> &connections[]) {
-    int len = 0;
-    priority_queue<State> q;
-    q.push(State{1, 0, 1});
-    while (!q.empty()) {
-        State cur = q.top(); q.pop();
-        if (parent[cur.node] != 0) continue;
-        parent[cur.node] = cur.parent;
-        len += cur.len;
-        for (int i = 0; i < connections[cur.node].size(); i++) {
-            q.push(State{connections[cur.node][i].first, connections[cur.node][i].second, cur.node});
+/**
+ * Gets minimum edges in O(V^2)
+ */
+void prims() {
+    for (int ii = 0; ii < N; ++ii) {
+        int to = 1;
+        for (int i = 1; i <= N; ++i) {
+            if (!v[i] && d[i] < d[to]) to = i;
+        }
+        v[to] = true;
+        for (pair<int, int> i : c[to]) {
+            if (!v[i.f]) d[i.f] = min(d[i.f], i.s);
         }
     }
-    return len;
 }
 
 int main() {
