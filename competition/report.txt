@@ -1,5 +1,5 @@
 
-Created 4/26/2018 by Will* "BitLorax" Liang
+Will "BitLorax" Liang
 
 ==========[Competitive Programming Report]==========
 
@@ -13,17 +13,18 @@ Silver
     2018    [...|...|***|   ]
 Gold
     2015    [***|***|   |***]
-    2016    [***|***|***|**!]
+    2016    [***|***|***|***]
     2017    [***|***|***|***]
     2018    [***|***|.**|**.]
     2019	[***|   |   |   ]
 Platinum
     2015    [***|** |***|*  ]
     2016    [***|** |***|*  ]
-    2017    [***|***|** |* *]
-    2018    [***|*  |   |   ]
-    2019	[** |** |** |  *]
+    2017    [***|***|***|* *]
+    2018    [***|** |** |* *]
+    2019	[** |   |   |   ]
 
+INCOMPLETE Coding History
 
 04/27/2018  [ ] [ ] Bronze   2016 (1) P1_SquarePasture
 04/27/2018  [ ] [ ] Bronze   2016 (1) P2_BlockGame
@@ -71,7 +72,7 @@ Platinum
 09/07/2018  [*] [!] Gold     2017 (1) P1_APieForAPie
 09/08/2018  [*] [ ] Gold     2017 (1) P3_HaybaleFeast
 
-[REDACTED]
+MISSING
 
     12/14/2018 - 12/17/2018 USACO Dec. Competition
         Bronze - 1000
@@ -80,7 +81,7 @@ Platinum
 01/18/2019  [*] [!] Silver   2017 (3) P1_RestStops
 01/18/2019  [*] [ ] Silver   2017 (3) P2_SnowBoots
 01/19/2019  [*] [!] Silver   2017 (3) P3_Teleportation
-[MISSING]
+MISSING
     01/18/2018 - 01/21/2018 USACO Jan. Competition
         Silver - 703*
         * Lesson learned, watch the timer when risking a submission
@@ -98,8 +99,7 @@ Platinum
 02/22/2019  [*] [ ] Silver   2016 (1) P3_Moocast
 02/22/2019  [*] [!] Silver   2016 (3) P1_WhyDidTheCowCrossTheRoad
 02/23/2019  [*] [!] Gold     2018 (1) P1_FineDining
-02/23/2019  [*] [!] Gold     2018 (1) P2_Cowpatibility*
-    * Official Solution does not AC
+02/23/2019  [*] [!] Gold     2018 (1) P2_Cowpatibility
     02/22/2018 - 02/25/2018 USACO Feb. Competition
         Silver - 1000
         Gold   - 276
@@ -179,12 +179,18 @@ Platinum
 12/22/2019	[*] [!] Platinum 2019 (1) P1_GreedyPieEaters
 12/30/2019	[*] [!] Platinum 2018 (1) P3_TheCowGathering
 
-01/01/2020	[*] [!] Platinum 2019 (2) P1_Redistricting
-01/02/2020	[*] [!] Platinum 2019 (2) P2_ExerciseRoute
-01/02/2020	[*] [!] Platinum 2019 (3) P1_CowDating
-01/03/2020	[*] [!] Platinum 2019 (3) P2_MoorioKart
-01/04/2020	[*] [!] Platinum 2019 (4) P3_Valleys
+01/01/2020	[*] [!] Platinum 2018 (2) P1_Redistricting
+01/02/2020	[*] [!] Platinum 2018 (2) P2_ExerciseRoute
+01/02/2020	[*] [!] Platinum 2018 (3) P1_CowDating
+01/03/2020	[*] [!] Platinum 2018 (3) P2_MoorioKart
+01/04/2020	[*] [!] Platinum 2018 (4) P3_Valleys
 01/04/2020	[*] [!] Platinum 2018 (1) P1_StandingOutFromTheHerd
 01/05/2020  [*] [!] Platinum 2017 (2) P2_CowAtLarge
 01/06/2020  [*] [ ] Platinum 2017 (4) P3_Disruption
 01/06/2020  [*] [!] Platinum 2017 (4) P1_OutOfSorts
+01/12/2020  [*] [!] Platinum 2018 (4) P1_TreeBoxes
+01/18/2020  [*] [!] Platinum 2017 (3) P3_CowGymnasts
+    12/17/2020 - 12/20/2020 USACO Jan. Competition
+        Platinum - 163
+
+02/22/2020  [*] [!] Platinum 2019 (2) P1_CavePaintings

@@ -8,7 +8,7 @@
 
 using namespace std;
 
-vector<int> connections[N + 1];
+vector<int> c[N + 1];
 
 namespace lca {
     int depth[N + 1];
@@ -24,7 +24,7 @@ namespace lca {
         up[cur][0] = par;
         for (int i = 1; i <= LOG; i++)
             up[cur][i] = up[up[cur][i - 1]][i - 1];
-        for (int j : connections[cur])
+        for (int j : c[cur])
             if (j != par) dfs(j, cur);
 
         pos[cur].second = counter++;
