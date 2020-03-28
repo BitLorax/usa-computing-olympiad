@@ -12,7 +12,7 @@ namespace segTree {
     int lazy[1 << LOG];
     int n;
 
-    /**
+    /** 
      * Segment tree's function
      *
      * @param a value one

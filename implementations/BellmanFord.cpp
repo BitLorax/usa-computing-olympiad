@@ -17,7 +17,7 @@ struct Edge {
 namespace bellmanFord {
     int dists[N + 1];
     /**
-     * Calculates minimum distance from start node to all over nodes in O(NE)
+     * Calculates minimum distance from start node to all other nodes in O(NE)
      * @param edges Edges in the graph
      * @param start Starting node
      * @return Returns whether there is a shortest path (false for negative cycle)

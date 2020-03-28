@@ -17,9 +17,11 @@ struct HLD {
     vector<int> chain;
     vector<int> chainPar;
     int dfs(int node) {
+        size[node] = 1;
         for (pair<int, int> child : tree[node]) {
             size[node] += dfs(child.first);
         }
+        return size[node];
     }
     void buildChains(int node, int chainId) {
         chain[node] = chainId;
