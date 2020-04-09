@@ -13,7 +13,6 @@ namespace unionFind {
     vector<int> indices[N + 1];
     /**
      * Initializes default values in O(N)
-     *
      * @param size Amount of nodes
      */
     void construct(int size) {
@@ -25,7 +24,6 @@ namespace unionFind {
     }
     /**
      * Gets the highest parent of the node in O(1)
-     *
      * @param node The node to be checked
      * @return The highest parent of the node
      */
@@ -34,7 +32,6 @@ namespace unionFind {
     }
     /**
      * Connects the two nodes in O(logN)
-     *
      * @param a Node one
      * @param b Node two
      */
@@ -56,6 +53,7 @@ struct Edge {
         return w < u.w;
     }
 };
+
 vector<Edge> edges;
 
 namespace kruskals {
@@ -65,7 +63,7 @@ namespace kruskals {
      */
     int run() {
         int size = 0;
-        for (int i = 0 ; i< edges.size(); i++)
+        for (int i = 0 ; i < edges.size(); i++)
             size = max(size, max(edges[i].a, edges[i].b));
         unionFind::construct(size);
         sort(edges.begin(), edges.end());

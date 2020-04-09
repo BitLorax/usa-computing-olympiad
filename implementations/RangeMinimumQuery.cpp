@@ -13,7 +13,6 @@ namespace rmq {
     int mins[N + 1][LOG + 1];
     /**
      * Preprocesses arr in O(NlogN)
-     *
      * @param arr Array to be preprocessed
      * @param size Size of array
      */
@@ -30,7 +29,6 @@ namespace rmq {
     }
     /**
      * Queries mins in O(1)
-     *
      * @param arr Array to query
      * @param lo Low index
      * @param hi High index

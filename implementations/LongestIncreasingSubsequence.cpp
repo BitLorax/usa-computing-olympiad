@@ -11,6 +11,11 @@
 
 using namespace std;
 
+/**
+ * Finds longest increasing subsequence
+ * @param Sequence to be analyzed
+ * @return Length of longest increasing subsequence
+ */
 int longestIncreasingSubsequence(int seq[]) {
     vector<int> subseq;
     for (int i = 0; i < N; i++) {

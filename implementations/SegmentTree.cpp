@@ -3,6 +3,7 @@
 #include <cmath>
 
 #define N 1000
+#define MAX_NODES 10000
 #define LOG 12
 
 using namespace std;
@@ -14,7 +15,6 @@ namespace segTree {
 
     /** 
      * Segment tree's function
-     *
      * @param a value one
      * @param b value two
      * @return return the function of a and b
@@ -28,7 +28,6 @@ namespace segTree {
     }
     /**
      * Pushes lazy propogation
-     *
      * @param node node to push
      * @param a node's lower index
      * @param b node's higher index
@@ -46,7 +45,6 @@ namespace segTree {
     }
     /**
      * Sets up segment tree in O(N)
-     *
      * @param arr Array to be processed
      * @param size Size of array
      */
@@ -65,7 +63,6 @@ namespace segTree {
     }
     /**
      * Updates values in [i, j] by val in O(logN)
-     *
      * @param i lower bound
      * @param j upper bound
      * @param val value to be added
@@ -88,7 +85,6 @@ namespace segTree {
     }
     /**
      * Queries the seg tree in [i, j] in O(logN)
-     *
      * @param i lower bound
      * @param j upper bound
      * @param node current node
@@ -107,7 +103,9 @@ namespace segTree {
     }
 };
 
-namespace segTree {
+// UNVERIFIED
+
+namespace limitedSegTree {
     struct Node {
         int val, l, r;
     };
@@ -118,15 +116,14 @@ namespace segTree {
         if (!i) return nodes[node].l = ++next;
         else return nodes[node].r = ++next;
     }
-    void add(int i, int v, int node = 0, int a = 0, int b = MAX_N + 10) {
+    void add(int i, int v, int node = 0, int a = 0, int b = N + 10) {
         nodes[node].val += v;
         if (a == b) return;
         int mid = (a + b) / 2;
         if (i <= mid) add(i, v, get(2 * node, 0), a, mid);
         if (i <= mid) add(i, v, get(2 * node, 1), mid + 1, b);
     }
-    int query(int lo, int hi, int node = 0, int a = 0, int b = MAX_N + 10) {
-        count.first++;
+    int query(int lo, int hi, int node = 0, int a = 0, int b = N + 10) {
         if (a >= lo && b <= hi) {
             return nodes[node].val;
         }

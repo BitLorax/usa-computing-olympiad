@@ -12,7 +12,6 @@ namespace uf {
     vector<int> indices[N + 1];
     /**
      * Initializes default values in O(N)
-     *
      * @param size Amount of nodes
      */
     void construct(int size) {
@@ -24,7 +23,6 @@ namespace uf {
     }
     /**
      * Gets the highest parent of the node in O(1)
-     *
      * @param node The node to be checked
      * @return The highest parent of the node
      */
