@@ -1,0 +1,230 @@
+USACO
+    Bronze
+        2016    [...|...|...|   ]
+        2018    [***|   |   |   ]
+    Silver
+        2015    [...|   |   |   ]
+        2016    [***|...|*..|   ]
+        2017    [   |***|***|***]
+        2018    [...|...|***|   ]
+    Gold
+        2015    [***|***|   |***]
+        2016    [***|***|***|***]
+        2017    [***|***|***|***]
+        2018    [***|***|.**|**.]
+        2019	[***|   |   |   ]
+    Platinum
+        2015    [***|** |***|*  ]
+        2016    [***|** |***|*  ]
+        2017    [***|***|***|* *]
+        2018    [***|** |** |* *]
+        2019	[** |*  |*  |   ]
+
+Google CodeJam
+    2019
+        1C      [ * ]
+    2020
+        Qual    [***  ]
+        1A      [*. ]
+        1B      [.  ]
+        1C      [*. ]
+
+Google KickStart
+    2019
+    2020
+        A       [*** ]
+        B       [**. ]
+
+04/27/2018  [ ] [ ] Bronze   2016 (1) P1_SquarePasture
+04/27/2018  [ ] [ ] Bronze   2016 (1) P2_BlockGame
+04/27/2018  [ ] [ ] Bronze   2016 (1) P3_CowSignal
+04/28/2018  [ ] [!] Silver   2016 (1) P1_CountingHaybales
+04/29/2018  [ ] [!] Silver   2016 (1) P2_CitiesAndStates
+04/29/2018  [ ] [!] Silver   2016 (1) P3_Moocast
+04/30/2018  [ ] [ ] Bronze   2016 (2) P1_DontBeLast
+04/30/2018  [ ] [ ] Bronze   2016 (2) P2_HoofPaperScissors
+04/30/2018  [ ] [ ] Bronze   2016 (2) P3_CowTipping
+
+05/01/2018  [ ] [ ] Silver   2016 (2) P1_CowDanceShow
+05/02/2018  [ ] [!] Silver   2016 (2) P2_HoofPaperScissors
+
+06/02/2018  [ ] [ ] Silver   2016 (2) P3_SecretCowCode
+    06/11/2018 - 06/29/2018 AlphaStar Silver class
+
+07/06/2018  [ ] [ ] Bronze   2016 (3) P1_WhyDidTheCowCrossTheRoadI
+07/06/2018  [ ] [!] Bronze   2016 (3) P2_WhyDidTheCowCrossTheRoadII
+07/06/2018  [ ] [ ] Bronze   2016 (3) P3_WhyDidTheCowCrossTheRoadIII
+07/06/2018  [*] [!] Silver   2016 (3) P1_WhyDidTheCowCrossTheRoadI
+07/06/2018  [*] [ ] Silver   2016 (3) P2_WhyDidTheCowCrossTheRoadII
+07/17/2018  [*] [ ] Silver   2016 (3) P3_WhyDidTheCowCrossTheRoadIII
+07/19/2018  [*] [ ] Silver   2015 (1) P1_SwitchingOnTheLights
+07/20/2018  [*] [ ] Silver   2015 (1) P2_HighCardWins
+07/20/2018  [*] [ ] Silver   2015 (1) P3_BreedCounting
+07/22/2018  [*] [!] Gold     2015 (1) P1_HighCardLowCard
+    07/23/2018 - 08/10/2018 AlphaStar Gold class
+07/22/2018  [ ] [ ] Gold     2015 (1) P2_FruitFeast
+
+    08/18/2018 Switch to C++
+08/18/2018  [*] [!] Gold     2015 (1) P3_BessiesDream
+08/19/2018  [*] [!] Gold     2015 (2) P1_AngryCows
+08/22/2018  [*] [ ] Gold     2015 (2) P2_RadioContact
+08/23/2018  [*] [ ] Gold     2015 (2) P3_LightsOut
+08/23/2018  [*] [ ] Gold     2016 (1) P1_Moocast
+08/23/2018  [*] [ ] Gold     2016 (1) P2_CowChecklist
+08/25/2018  [*] [ ] Gold     2016 (1) P3_LasersAndMirrors
+08/25/2018  [*] [!] Gold     2016 (2) P1_BalancedPhoto
+08/25/2018  [*] [!] Gold     2016 (2) P2_HoofPaperScissors
+
+09/01/2018  [*] [!] Gold     2016 (2) P3_CowNavigation
+09/02/2018  [*] [ ] Gold     2016 (3) P1_WhyDidTheCowCrossTheRoadI
+09/02/2018  [*] [ ] Gold     2016 (3) P2_WhyDidTheCowCrossTheRoadII
+09/07/2018  [*] [!] Gold     2017 (1) P1_APieForAPie
+09/08/2018  [*] [ ] Gold     2017 (1) P3_HaybaleFeast
+
+MISSING
+
+    12/14/2018 - 12/17/2018 USACO Dec. Competition
+        Bronze - 1000
+        Silver - 400
+
+01/18/2019  [*] [!] Silver   2017 (3) P1_RestStops
+01/18/2019  [*] [ ] Silver   2017 (3) P2_SnowBoots
+01/19/2019  [*] [!] Silver   2017 (3) P3_Teleportation
+MISSING
+    01/18/2018 - 01/21/2018 USACO Jan. Competition
+        Silver - 703
+
+01/27/2019  [*] [!] Gold     2017(3) P1_SnowBoots
+
+02/03/2019  [*] [!] Gold     2017 (3) P2_DirectoryTraversal
+02/16/2019  [*] [ ] Silver   2017 (2) P2_RentalService
+02/18/2019  [*] [ ] Silver   2017 (3) P3_MooTube
+02/19/2019  [*] [!] Silver   2017 (4) P1_OutOfSorts
+02/19/2019  [*] [ ] Silver   2017 (4) P2_LemonadeLine
+02/21/2019  [*] [!] Silver   2017 (4) P3_MultiplayerMoo
+02/21/2019  [*] [ ] Silver   2016 (1) P1_CountingHaybales
+02/22/2019  [*] [ ] Silver   2016 (1) P2_CitiesAndStates
+02/22/2019  [*] [ ] Silver   2016 (1) P3_Moocast
+02/22/2019  [*] [!] Silver   2016 (3) P1_WhyDidTheCowCrossTheRoad
+02/23/2019  [*] [!] Gold     2018 (1) P1_FineDining
+02/23/2019  [*] [!] Gold     2018 (1) P2_Cowpatibility
+    02/22/2018 - 02/25/2018 USACO Feb. Competition
+        Silver - 1000
+        Gold   - 276
+
+03/01/2019  [*] [ ] Gold     2018 (3) P2_Dishwashing
+03/02/2019  [*] [ ] Gold     2018 (3) P3_PaintingTheBarn
+03/12/2019  [*] [ ] Gold     2018 (2) P1_CowPoetry
+03/13/2019  [*] [!] Gold     2018 (2) P2_SleepyCowSorting
+03/16/2019  [*] [!] Gold     2018 (2) P3_Shortcut
+03/17/2019  [*] [ ] Gold     2018 (1) P3_Teamwork
+03/21/2019  [*] [!] Gold     2017 (4) P1_OutOfSorts
+03/21/2019  [*] [!] Gold     2017 (4) P2_MilkingOrder
+03/29/2019  [*] [!] Gold     2017 (4) P3_TalentShow
+03/30/2019  [*] [!] Gold     2017 (3) P3_TamingTheHerd
+03/31/2019  [*] [!] Gold     2016 (4) P1_BovineGenomics
+03/31/2019  [*] [!] Gold     2016 (4) P3_ModernArt2
+03/31/2019  [*] [!] Gold     2016 (3) P3_WhyDidTheCowCrossTheRoadIII
+03/31/2019  [*] [!] Gold     2015 (4) P1_SplittingTheField
+03/31/2019  [*] [ ] Gold     2015 (4) P2_ClosingTheFarm
+03/31/2019  [*] [!] Gold     2015 (4) P3_248
+    03/29/2018 - 04/01/2018 USACO Mar. Competition (US Open)
+        Gold - 603
+
+06/29/2019  [*] [!] Gold     2018 (1) P2_BarnPainting
+06/20/2019  [*] [ ] Gold     2015 (1) P1_HighCardLowCard
+06/20/2019  [*] [ ] Gold     2015 (1) P2_FruitFeast
+
+08/15/2019  [*] [!] Platinum 2015 (1) P1_MaxFlow
+08/15/2019  [*] [ ] Platinum 2015 (1) P3_CountingHaybales
+08/16/2019  [*] [ ] Platinum 2015 (1) P2_HighCardLowCard
+08/18/2019  [*] [ ] Platinum 2016 (1) P1_LotsOfTriangles
+08/21/2019  [*] [!] Platinum 2016 (1) P2_TeamBuilding
+08/25/2019  [*] [!] Platinum 2017 (1) P1_StandingOutFromTheHerd
+08/26/2019  [*] [!] Platinum 2017 (1) P3_GreedyGiftTakers
+
+09/01/2019  [*] [!] Platinum 2016 (1) P3_RoboticCowHerd
+09/01/2019  [*] [ ] Platinum 2015 (2) P1_FortMoo
+09/10/2019  [*] [!] Platinum 2018 (1) P2_SortItOut
+09/12/2019  [*] [!] Gold     2015 (3) P1_CircularBarn
+09/15/2019  [*] [!] Gold     2015 (3) P2_CircularBarnRevisited
+09/15/2019  [*] [!] Gold     2015 (3) P3_FencedIn
+09/19/2019  [*] [!] Platinum 2015 (3) P2_FencedIn
+09/23/2019  [*] [!] Platinum 2015 (3) P1_LoadBalancing
+09/29/2019  [*] [!] Platinum 2015 (4) P1_262144
+09/30/2019  [*] [ ] Platinum 2016 (2) P1_PromotionCounting
+
+10/05/2019  [*] [!] Platinum 2016 (2) P2_BuildingATallBarn
+10/13/2019  [*] [ ] Platinum 2015 (3) P3_CircularBarn
+10/20/2019  [*] [ ] Platinum 2015 (2) P2_MowingTheField
+10/23/2019  [*] [!] Platinum 2016 (3) P2_WhyDidTheCowCrossTheRoadII
+    10/26/2019 CodeStar HackerEarth
+        12th out of 466
+10/31/2019  [*] [ ] Platinum 2016 (3) P1_WhyDidTheCowCrossTheRoad
+
+11/09/2019  [*] [!] Platinum 2016 (3) P3_WhyDidTheCowCrossTheRoadIII
+11/09/2019  [*] [ ] Platinum 2016 (4) P1_ModernArt
+11/23/2019  [*] [!] Platinum 2017 (2) P1_Lifeguards
+11/24/2019  [*] [!] Platinum 2017 (2) P3_Sprinklers
+11/27/2019  [*] [ ] Platinum 2017 (3) P1_Slingshot
+11/28/2019  [*] [!] Platinum 2017 (3) P2_NewBarns
+11/30/2019  [*] [ ] Platinum 2017 (1) P2_PushABox
+
+12/05/2019  [*] [ ] Gold     2018 (1) P1_FineDining
+12/06/2019  [*] [ ] Gold     2018 (1) P2_Cowpatibility
+12/07/2019  [*] [ ] Gold     2018 (2) P3_Shortcut
+    12/07/2019 UCF HSPT
+        23rd out of 46
+12/08/2019  [*] [ ] Gold     2018 (3) P2_Dishwashing
+12/12/2019  [*] [ ] Gold     2018 (4) P1_Snakes
+12/13/2019  [*] [ ] Gold     2018 (4) P2_IWouldWalk500Miles
+    12/14/2019 VT HSPT
+        9th out of 102
+    12/13/2019 - 12/16/2019 USACO Dec. Competition
+    	Gold - 1000
+    	Platinum - 186
+12/22/2019	[*] [!] Platinum 2019 (1) P2_BessiesSnowCow
+12/22/2019	[*] [!] Platinum 2019 (1) P1_GreedyPieEaters
+12/30/2019	[*] [!] Platinum 2018 (1) P3_TheCowGathering
+
+01/01/2020	[*] [!] Platinum 2018 (2) P1_Redistricting
+01/02/2020	[*] [!] Platinum 2018 (2) P2_ExerciseRoute
+01/02/2020	[*] [!] Platinum 2018 (3) P1_CowDating
+01/03/2020	[*] [!] Platinum 2018 (3) P2_MoorioKart
+01/04/2020	[*] [!] Platinum 2018 (4) P3_Valleys
+01/04/2020	[*] [!] Platinum 2018 (1) P1_StandingOutFromTheHerd
+01/05/2020  [*] [!] Platinum 2017 (2) P2_CowAtLarge
+01/06/2020  [*] [ ] Platinum 2017 (4) P3_Disruption
+01/06/2020  [*] [!] Platinum 2017 (4) P1_OutOfSorts
+01/12/2020  [*] [!] Platinum 2018 (4) P1_TreeBoxes
+01/18/2020  [*] [!] Platinum 2017 (3) P3_CowGymnasts
+    01/17/2020 - 01/20/2020 USACO Jan. Competition
+        Platinum - 163
+
+02/22/2020  [*] [!] Platinum 2019 (2) P1_CavePaintings
+    02/21/2020 - 02/24/2020 USACO Feb. Competition
+        Platinum - 310
+
+	03/07/2020 HPI
+		2nd out of 30
+    03/22/2020 KickStart Round A
+        1825th out of 10926
+03/22/2020  [*] [ ] 2020 KS A P1_Allocation
+03/22/2020  [*] [ ] 2020 KS A P3_Workout
+03/27/2020  [*] [!] Platinum 2019 (3) P1_Delegation
+03/27/2020  [*] [ ] 2020 KS A P2_Plates
+    04/03/2020 - 04/04/2020 Google CodeJam Qualification Round
+        42 pts out of 100
+    04/10/2020 CodeJam Round 1A
+        3106th out of 9413
+    04/18/2020 KickStart Round B
+        2989th out of 9355
+    04/19/2020 CodeJam Round 1B
+        4886th out of 6539
+04/30/2020  [*] [!] 2019 CJ 1C P2_PowerArrangers
+
+    05/01/2020 CodeJam Round 1C
+        4797th out of 9625
+
+    8/21/2020 LIT
+        10th out of 30+
